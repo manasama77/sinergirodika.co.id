@@ -31,6 +31,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -69,66 +72,7 @@
             @yield('content')
         </div>
 
-        <footer id="footer" class="bg-color-primary border-top-0">
-            <div class="container pt-1">
-                <div class="row py-5 text-center text-lg-start">
-                    <div class="col-12 col-lg-4">
-                        <img src="{{ asset('img/sinergi-logo.png') }}" alt="Logo"
-                            class="pe-lg-5 mb-4 mb-lg-0 logo-footer-custom">
-                        <p class="text-pt-footer">PT SINERGI RODIKA UTAMA</p>
-                        <p class="text-pt-footer-small">Electrical And Scada System Energy And Environment Management
-                            Painting
-                            System And Water
-                            Treatment</p>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="feature-box feature-box-style-2 float-lg-end d-block d-lg-flex mb-4 mb-lg-0">
-                            <div class="feature-box-icon">
-                                <i class="icon-location-pin icons text-color-light"></i>
-                            </div>
-                            <div class="feature-box-info ps-1">
-                                <h5 class="mb-0 opacity-7 font-weight-light">ADDRESS</h5>
-                                <p class="text-color-light font-weight-semibold mb-0">MON - FRI: 10:00am - 6:00pm</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="feature-box feature-box-style-2 float-lg-end d-block d-lg-flex mb-4 mb-lg-0">
-                            <div class="feature-box-icon">
-                                <i class="icon-call-out icons text-color-light"></i>
-                            </div>
-                            <div class="feature-box-info ps-1">
-                                <h5 class="mb-0 opacity-7 font-weight-light">CALL US NOW</h5>
-                                <a href="tel:+8001234567"
-                                    class="text-color-light font-weight-semibold text-decoration-none">800-123-4567</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright footer-copyright-style-2">
-                <div class="container py-2">
-                    <div class="row py-4">
-                        <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
-                            <nav id="sub-menu">
-                                <ul>
-                                    <li><i class="fas fa-angle-right"></i><a href="page-faq.html"
-                                            class="ms-1 text-decoration-none"> FAQ's</a></li>
-                                    <li><i class="fas fa-angle-right"></i><a href="sitemap.html"
-                                            class="ms-1 text-decoration-none"> Sitemap</a></li>
-                                    <li><i class="fas fa-angle-right"></i><a href="contact-us.html"
-                                            class="ms-1 text-decoration-none"> Contact Us</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div
-                            class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end mb-4 mb-lg-0 pt-4 pt-lg-0">
-                            <p>© Copyright 2023. All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        @include('partials.footer')
     </div>
 
     <!-- Vendor -->
