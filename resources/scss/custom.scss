@@ -6,3 +6,26 @@
         font-size: 2.5rem !important;
     }
 }
+
+.logo-footer-custom {
+    width: 22vh;
+
+    // media min bootstrap 5 md breakpoint
+    @media (min-width: 768px) {
+        width: 45vh;
+    }
+}
+
+.text-pt-footer {
+    font-size: 1.4rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.text-pt-footer-small {
+    font-size: 0.8rem;
+    color: white;
+    line-height: 1.5;
+}
