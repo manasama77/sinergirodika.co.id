@@ -30,7 +30,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="{{ route('home') }}"
+                                            <a href="{{ route('about-us') }}"
                                                 class="{{ $currentRoute == 'about-us' ? 'active' : '' }}">
                                                 About Us
                                             </a>

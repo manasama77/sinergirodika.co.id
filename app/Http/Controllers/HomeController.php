@@ -13,7 +13,7 @@ class HomeController extends Controller
 
     public function about_us()
     {
-        return view('pages.home');
+        return view('pages.about_us');
     }
 
     public function solutions_electrical_service()
