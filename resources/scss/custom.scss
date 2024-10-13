@@ -29,3 +29,33 @@
     color: white;
     line-height: 1.5;
 }
+
+#header {
+    .header-nav.header-nav-links {
+        nav {
+            > ul {
+                li {
+                    > a.active {
+                        color: #64b964 !important;
+                    }
+                }
+
+                li:hover {
+                    > a {
+                        color: #64b964 !important;
+                    }
+                }
+
+                li.dropdown .dropdown-menu {
+                    border-image: linear-gradient(to left, #64b964, #0e244b) 1 0
+                        0 0 !important;
+                }
+            }
+        }
+    }
+}
+
+.bg-color-sinergi {
+    // backgrond color linear gradient to right from #62B967 to #0E244B
+    background-image: linear-gradient(to left, #64b964, #0e244b) !important;
+}

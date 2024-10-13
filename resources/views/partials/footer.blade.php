@@ -1,7 +1,14 @@
-<footer id="footer" class="bg-color-primary border-top-0">
+@php
+    $marginTop = '50px';
+    // if current route is home
+    if (Route::currentRouteName() == 'home') {
+        $marginTop = '0px';
+    }
+@endphp
+<footer id="footer" class="bg-color-sinergi border-top-0" style="margin-top: {{ $marginTop }}">
     <div class="container pt-1">
         <div class="row py-5 text-center text-lg-start">
-            <div class="col-12 col-lg-4">
+            <div class="col-sm-12 col-lg-4">
                 <img src="{{ asset('img/sinergi-logo.png') }}" alt="Logo"
                     class="pe-lg-5 mb-4 mb-lg-0 logo-footer-custom">
                 <p class="text-pt-footer">PT SINERGI RODIKA UTAMA</p>
@@ -10,7 +17,7 @@
                     System And Water
                     Treatment</p>
             </div>
-            <div class="col-md-6 col-lg-4">
+            <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="feature-box feature-box-style-2 d-block d-lg-flex mb-4 mb-lg-0 justify-content-center">
                     <div class="feature-box-icon">
                         <i class="icon-location-pin icons text-color-light"></i>
@@ -23,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
                 <div class="feature-box feature-box-style-2 float-lg-start d-block d-lg-flex mb-4 mb-lg-3">
                     <div class="feature-box-icon">
                         <i class="icon-call-out icons text-color-light"></i>

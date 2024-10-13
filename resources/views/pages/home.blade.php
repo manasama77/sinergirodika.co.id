@@ -26,8 +26,9 @@
                             data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 100}">
                             SUBSTATION AND ELECTRICAL SERVICES
                         </h1>
-                        <a href="#" class="btn btn-dark btn-lg mb-3 appear-animation"
-                            data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': -1}">
+                        <a href="{{ route('solutions.electrical-service') }}"
+                            class="btn btn-dark btn-lg mb-3 appear-animation" data-appear-animation="fadeInDownShorter"
+                            data-plugin-options="{'minWindowWidth': -1}">
                             LEARN MORE
                         </a>
 
@@ -48,8 +49,9 @@
                             data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': 0}">
                             ELECTRIC VEHICLE CHARGER (SPKLU)
                         </h1>
-                        <a href="#" class="btn btn-dark btn-lg mb-3 appear-animation"
-                            data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': -1}">
+                        <a href="{{ route('solutions.electrical-vehicle-charger') }}"
+                            class="btn btn-dark btn-lg mb-3 appear-animation" data-appear-animation="fadeInDownShorter"
+                            data-plugin-options="{'minWindowWidth': -1}">
                             LEARN MORE
                         </a>
 
@@ -70,8 +72,9 @@
                             data-appear-animation="blurIn" data-plugin-options="{'minWindowWidth': '100%'}">
                             ENERGY & ENVIRONMENT MANAGEMENT
                         </h1>
-                        <a href="#" class="btn btn-dark btn-lg mb-3 appear-animation"
-                            data-appear-animation="fadeInDownShorter" data-plugin-options="{'minWindowWidth': -1}">
+                        <a href="{{ route('solutions.energy-and-environment-management') }}"
+                            class="btn btn-dark btn-lg mb-3 appear-animation" data-appear-animation="fadeInDownShorter"
+                            data-plugin-options="{'minWindowWidth': -1}">
                             LEARN MORE
                         </a>
 
@@ -79,6 +82,63 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <h4>Our Clients</h4>
+                <div class="owl-carousel owl-theme show-nav-title"
+                    data-plugin-options="{'items': 6, 'margin': 10, 'loop': true, 'nav': true, 'dots': false, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true}">
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/adaro.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/bayer.png') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/bright-pln-batam.png') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/cogindo.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/geo-dipa-energi.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/heleyora-power.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/oriflame.png') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded"
+                            src="{{ asset('img/clients/pln-indonesia-power.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/pln-nusa-daya.png') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded "
+                            src="{{ asset('img/clients/pln-nusantara-power.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img alt="" class="img-fluid rounded" src="{{ asset('img/clients/pln.jpg') }}"
+                            style="max-height: 100px; width: auto;">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 @endsection

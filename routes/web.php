@@ -17,3 +17,12 @@ Route::get('/products/water-tank', [HomeController::class, 'products_water_tank'
 Route::get('/products/test-and-measurement-tools', [HomeController::class, 'test_and_measurement_tools'])->name('products.test-and-measurement-tools');
 
 Route::get('/project/relay-protection', [HomeController::class, 'projects_relay_protection'])->name('projects.relay-protection');
+Route::get('/project/generator-ats-amf', [HomeController::class, 'generator_ats_amf'])->name('projects.generator-ats-amf');
+Route::get('/project/energy-metering', [HomeController::class, 'energy_metering'])->name('projects.energy-metering');
+Route::get('/project/scada-system', [HomeController::class, 'scada_system'])->name('projects.scada-system');
+Route::get('/project/dc-power-supply', [HomeController::class, 'dc-power-supply'])->name('projects.dc-power-supply');
+Route::get('/project/transformer-oil-purifier', [HomeController::class, 'transformer_oil_purifier'])->name('projects.transformer-oil-purifier');
+Route::get('/project/street-lamps-and-warehouse', [HomeController::class, 'street_lamps_and_warehouse'])->name('projects.street-lamps-and-warehouse');
+Route::get('/project/cctv-and-metal-detectors', [HomeController::class, 'cctv_and_metal_detectors'])->name('projects.cctv-and-metal-detectors');
+
+Route::get('/contact-us', [HomeController::class, 'contact-us'])->name('contact-us');
