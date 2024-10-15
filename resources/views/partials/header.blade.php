@@ -36,29 +36,26 @@
                                             </a>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#"
-                                                class="{{ in_array($currentRoute, ['solutions.electrical-service', 'solutions.electrical-vehicle-charger', 'solutions.energy-and-environment-management']) ? 'active' : '' }}">
+                                            <a class="dropdown-item dropdown-toggle {{ in_array($currentRoute, ['solutions.electrical-service', 'solutions.electrical-vehicle-charger', 'solutions.energy-and-environment-management']) ? 'active' : '' }}"
+                                                href="#">
                                                 Solutions
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('solutions.electrical-service') }}"
-                                                        class="{{ $currentRoute == 'solutions.electrical-service' ? 'active' : '' }}">
+                                                    <a class="dropdown-item {{ $currentRoute == 'solutions.electrical-service' ? 'active' : '' }}"
+                                                        href="{{ route('solutions.electrical-service') }}">
                                                         Electrical Service
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('solutions.electrical-vehicle-charger') }}"
-                                                        class="{{ $currentRoute == 'solutions.electrical-vehicle-charger' ? 'active' : '' }}">
+                                                    <a class="dropdown-item {{ $currentRoute == 'solutions.electrical-vehicle-charger' ? 'active' : '' }}"
+                                                        href="{{ route('solutions.electrical-vehicle-charger') }}">
                                                         Electric Vehicle Charger (SPKLU)
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('solutions.energy-and-environment-management') }}"
-                                                        class="{{ $currentRoute == 'solutions.energy-and-environment-management' ? 'active' : '' }}">
+                                                    <a class="dropdown-item {{ $currentRoute == 'solutions.energy-and-environment-management' ? 'active' : '' }}"
+                                                        href="{{ route('solutions.energy-and-environment-management') }}">
                                                         Energy And Environment Management
                                                     </a>
                                                 </li>

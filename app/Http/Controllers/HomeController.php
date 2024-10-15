@@ -18,6 +18,11 @@ class HomeController extends Controller
 
     public function solutions_electrical_service()
     {
-        return view('pages.home');
+        return view('pages.solutions.electrical_service');
+    }
+
+    public function solutions_electrical_vehicle_charger()
+    {
+        return view('pages.solutions.electrical_vehicle_charger');
     }
 }
