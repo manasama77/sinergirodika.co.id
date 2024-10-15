@@ -3558,7 +3558,7 @@ html body .tabs .nav-tabs .nav-link:hover,
 html.dark body .tabs .nav-tabs .nav-link:hover,
 html body .tabs .nav-tabs .nav-link.active,
 html.dark body .tabs .nav-tabs .nav-link.active {
-    color: #0088cc;
+    color: #ee9e20;
 }
 
 html body .tabs .nav-tabs .nav-link:hover,
@@ -3606,7 +3606,7 @@ html body .tabs.tabs-vertical.tabs-right .nav-tabs .nav-link.active:hover,
 html.dark body .tabs.tabs-vertical.tabs-right .nav-tabs .nav-link.active:hover,
 html body .tabs.tabs-vertical.tabs-right .nav-tabs .nav-link.active:focus,
 html.dark body .tabs.tabs-vertical.tabs-right .nav-tabs .nav-link.active:focus {
-    border-right-color: #0088cc;
+    border-right-color: #64b964;
 }
 
 html body .tabs.tabs-simple .nav-tabs > li .nav-link.active,
