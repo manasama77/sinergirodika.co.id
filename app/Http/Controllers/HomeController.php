@@ -25,4 +25,9 @@ class HomeController extends Controller
     {
         return view('pages.solutions.electrical_vehicle_charger');
     }
+
+    public function solutions_energy_and_environment_management()
+    {
+        return view('pages.solutions.energy_and_environment_management');
+    }
 }
