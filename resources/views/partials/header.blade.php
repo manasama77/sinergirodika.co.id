@@ -63,13 +63,14 @@
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#"
-                                                class="{{ in_array($currentRoute, ['products.electrical', 'products.electrical-vehicle-charger', 'products.energy-and-environment-management', 'products.water-tank', 'products.test-and-measurement-tools']) ? 'active' : '' }}">
+                                                class="{{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf']) ? 'active' : '' }}">
                                                 Products
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item" href="{{ route('products.electrical') }}"
-                                                        class="{{ $currentRoute == 'products.electrical' ? 'active' : '' }}">
+                                                    <a class="dropdown-item"
+                                                        href="{{ route('products.electrical.relay-protection') }}"
+                                                        class="{{ $currentRoute == 'products.electrical.relay-protection' ? 'active' : '' }}">
                                                         Electrical
                                                     </a>
                                                 </li>

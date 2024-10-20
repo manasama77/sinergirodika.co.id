@@ -10,7 +10,12 @@ Route::get('/solutions/electrical-service', [HomeController::class, 'solutions_e
 Route::get('/solutions/electrical-vehicle-charger', [HomeController::class, 'solutions_electrical_vehicle_charger'])->name('solutions.electrical-vehicle-charger');
 Route::get('/solutions/energy-and-environment-management', [HomeController::class, 'solutions_energy_and_environment_management'])->name('solutions.energy-and-environment-management');
 
-Route::get('/products/electrical', [HomeController::class, 'products_electrical'])->name('products.electrical');
+Route::get('/products/electrical/relay-protection', [HomeController::class, 'products_electrical_relay_protection'])->name('products.electrical.relay-protection');
+Route::get('/products/electrical/generator-ats-amf', [HomeController::class, 'products_electrical_generator_ats_amf'])->name('products.electrical.generator-ats-amf');
+Route::get('/products/electrical/energy-metering', [HomeController::class, 'products_electrical_energy_metering'])->name('products.electrical.energy-metering');
+Route::get('/products/electrical/scada-system', [HomeController::class, 'products_electrical_scada_system'])->name('products.electrical.scada-system');
+Route::get('/products/electrical/dc-power-supply', [HomeController::class, 'products_electrical_dc_power_supply'])->name('products.electrical.dc-power-supply');
+
 Route::get('/products/electrical-vehicle-charger', [HomeController::class, 'products_electrical_vehicle_charger'])->name('products.electrical-vehicle-charger');
 Route::get('/products/energy-and-environment-management', [HomeController::class, 'products_energy_and_environment_management'])->name('products.energy-and-environment-management');
 Route::get('/products/water-tank', [HomeController::class, 'products_water_tank'])->name('products.water-tank');
