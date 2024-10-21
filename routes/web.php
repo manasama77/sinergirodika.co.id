@@ -15,6 +15,9 @@ Route::get('/products/electrical/generator-ats-amf', [HomeController::class, 'pr
 Route::get('/products/electrical/energy-metering', [HomeController::class, 'products_electrical_energy_metering'])->name('products.electrical.energy-metering');
 Route::get('/products/electrical/scada-system', [HomeController::class, 'products_electrical_scada_system'])->name('products.electrical.scada-system');
 Route::get('/products/electrical/dc-power-supply', [HomeController::class, 'products_electrical_dc_power_supply'])->name('products.electrical.dc-power-supply');
+Route::get('/products/electrical/transformer-oil-purifier', [HomeController::class, 'products_electrical_transformer_oil_purifier'])->name('products.electrical.transformer-oil-purifier');
+Route::get('/products/electrical/distribution-transformer-monitoring', [HomeController::class, 'products_electrical_distribution_transformer_monitoring'])->name('products.electrical.distribution-transformer-monitoring');
+Route::get('/products/electrical/temperature-monitoring-ews', [HomeController::class, 'products_electrical_temperature_monitoring_ews'])->name('products.electrical.temperature-monitoring-ews');
 
 Route::get('/products/electrical-vehicle-charger', [HomeController::class, 'products_electrical_vehicle_charger'])->name('products.electrical-vehicle-charger');
 Route::get('/products/energy-and-environment-management', [HomeController::class, 'products_energy_and_environment_management'])->name('products.energy-and-environment-management');

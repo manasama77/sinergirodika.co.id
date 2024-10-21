@@ -40,29 +40,33 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.electrical-service' ? route('solutions.electrical-service') : null }}#dc-power-supply">
+                    <a class="nav-link {{ $currentRoute == 'products.electrical.dc-power-supply' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.electrical.dc-power-supply') }}">
                         DC Power Supply
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.electrical-service' ? route('solutions.electrical-service') : null }}#transformer-oil-purifier">
+                    <a class="nav-link {{ $currentRoute == 'products.electrical.transformer-oil-purifier' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.electrical.transformer-oil-purifier') }}">
                         Transformer Oil Purifier
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.electrical-service' ? route('solutions.electrical-service') : null }}#transformer-oil-purifier">
+                    <a class="nav-link {{ $currentRoute == 'products.electrical.distribution-transformer-monitoring' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.electrical.distribution-transformer-monitoring') }}#transformer-oil-purifier">
                         Distribution Transformer monitoring
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.electrical-service' ? route('solutions.electrical-service') : null }}#transformer-oil-purifier">
+                    <a class="nav-link {{ $currentRoute == 'products.electrical.temperature-monitoring-ews' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.electrical.temperature-monitoring-ews') }}">
                         Temperature Monitoring/ EWS
                     </a>
                 </li>

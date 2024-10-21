@@ -55,4 +55,19 @@ class HomeController extends Controller
     {
         return view('pages.products.electrical.dc_power_supply');
     }
+
+    public function products_electrical_transformer_oil_purifier()
+    {
+        return view('pages.products.electrical.transformer_oil_purifier');
+    }
+
+    public function products_electrical_distribution_transformer_monitoring()
+    {
+        return view('pages.products.electrical.distribution_transformer_monitoring');
+    }
+
+    public function products_electrical_temperature_monitoring_ews()
+    {
+        return view('pages.products.electrical.temperature_monitoring_ews');
+    }
 }

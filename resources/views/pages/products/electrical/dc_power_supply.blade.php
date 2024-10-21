@@ -21,132 +21,140 @@
             <div class="col-lg-9">
 
                 <h2 class="font-weight-extra-normal text-7 mb-3">
-                    <strong class="font-weight-extra-bold">SCADA SYSTEMS</strong>
+                    <strong class="font-weight-extra-bold">DC POWER SUPPLY</strong>
                 </h2>
 
-                <div class="my-3">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 mb-4">
-                            <h3 class="font-weight-bold text-4 mb-2">
-                                CELLULAR ROUTER<br />
-                                <small>ROBUSTEL R3000</small>
-                            </h3>
-                            <p class="m-0">Industrial Dual SIM Cellular VPN Router
-                                2 Eth + 1 USB Host + 2 x RS232 or 1 x RS232
-                                + 1 x RS485
-                                Cellular router offering state-of-the-art mobile connectivity for machine to machine (M2M)
-                                applications.</p>
+                <h3 class="font-weight-bold text-4 mb-0">
+                    RECTIFIERS, INVERTER BATTERY CHARGER
+                </h3>
+                <p class="mb-4">
+                    Automatic voltage control & current limiting Thyristor (SCR) controlled and Suitable
+                    for all industrial Lead acid and Ni-Cd/ Lithium batteries
+                </p>
 
-                            <div class="d-flex flex-column justify-content-center align-items-center">
-                                <div>
-                                    <img src="{{ asset('img/CELLULAR ROUTER.png') }}" alt="CELLULAR ROUTER"
-                                        style="width: auto; height: 180px;" />
-                                </div>
-                                <div>
-                                    <img src="{{ asset('img/ROBUSTEL LOGO.png') }}" alt="ROBUSTEL LOGO"
-                                        style="width: auto; height: 50px;" />
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-sm-12 col-md-6 mb-4">
-                            <div class="d-flex flex-column">
-                                <div>
-                                    <h3 class="font-weight-bold text-3 mb-0">Cellular Interface</h3>
-                                    <p class="text-2 mb-1">Number of antennas 2 (MAIN + AUX) Connector SMA-K SIM 2 x Mini
-                                        SIM
-                                        (2FF)
-                                    </p>
-                                </div>
-                                <div>
-                                    <h3 class="font-weight-bold text-3 mb-0">Ethernet Interface</h3>
-                                    <p class="text-2 mb-1">Number of ports 2 x 10/100 Mbps, 2 x LAN or 1 x LAN + 1 x WAN
-                                        Magnet isolation protection 1.5 KV
-                                    </p>
-                                </div>
-                                <div>
-                                    <h3 class="font-weight-bold text-3 mb-0">Wi-Fi Interface (Optional)
-                                    </h3>
-                                    <p class="text-2 mb-1">Number of antennas 1
-                                        Connector RP-SMA-K
-                                        Standards 802.11 a/b/g/n, supports AP and Client modes
-                                        Data speed Up to 150 Mbps
-
-                                    </p>
-                                </div>
-                                <div>
-                                    <h3 class="font-weight-bold text-3 mb-0">Serial Interface</h3>
-                                    <p class="text-2 mb-1">Number of ports 2 x RS232 or 1 x RS232 + 1 x RS485
-                                        Baud rate 300 bps ~ 230400 bps
-                                    </p>
-                                </div>
-                                <div>
-                                    <h3 class="font-weight-bold text-3 mb-0">DI/DO</h3>
-                                    <p class="text-2 mb-1">Type 2 x DI (dry contact) + 2 x DO (wet contact),
-                                        Connector 7-pin 3.5 mm female socket with lock
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 mb-3 d-flex justify-content-center">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4 d-flex flex-column justify-content-start align-items-center">
-                                    <div>
-                                        <img src="{{ asset('img/RTU FW-5-GATE.png') }}" alt="RTU FW-5-GATE"
-                                            style="width: auto; height: 120px;" />
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('img/SAE IT-SYSTEM LOGO.jpg') }}" alt="SAE IT-SYSTEM LOGO"
-                                            style="width: auto; height: 50px;" />
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-8">
-                                    <h3 class="font-weight-bold text-3 mb-0">
-                                        RTU FW-5-GATE
-                                    </h3>
-                                    <p>2 Ethernet LAN TCP/IP connections
-                                        2 RS-485 , RS-232/V.24 interface
-                                        Temp sensor, -20° to 100° C
-                                        Power supply (20 to 72 V DC)
-                                        Protocols IEC 61850 IED,
-                                        IEC 60870-5-101 IEC 60870-5-103
-                                        IEC 60870-5-104, TCP/IP DNP3
-                                        IEC 62056-21, Modbus RTU/TCP
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 mb-3 d-flex justify-content-center">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4 d-flex flex-column justify-content-start align-items-center">
-                                    <div>
-                                        <img src="{{ asset('img/FAULT INDICATOR LineTroll 110EμR.png') }}"
-                                            alt="FAULT INDICATOR LineTroll 110EμR" style="width: auto; height: 120px;" />
-                                    </div>
-                                    <div>
-                                        <img src="{{ asset('img/NORTROLL LOGO.png') }}" alt="NORTROLL LOGO"
-                                            style="width: auto; height: 50px;" />
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-8">
-                                    <h3 class="font-weight-bold text-3 mb-0">
-                                        FAULT INDICATOR LineTroll 110EμR
-                                    </h3>
-                                    <p>Distribution Networks (6-50kV)
-                                        LineTroll 110EμR conductor mounted
-                                        indicator for detection of PtG and
-                                        PtP faults in overhead line networks.
-                                        A built-in 2.4GHZ radio device communicate with receiver/ RTU/ Scada Master
-                                    </p>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 mb-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="font-weight-bold text-3 mb-3">
+                                    Rectifier 220 VAC to 48 VDC
+                                </h3>
+                                <img src="{{ asset('img/Rectifier 220 VAC to 48 VDC.jpg') }}"
+                                    alt="Rectifier 220 VAC to 48 VDC" class="mb-3" style="width: auto; height: 150px;" />
+                                <div class="table-responsive">
+                                    <table class="table table-borderless table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td>Capacity</td>
+                                                <td>10 - 200 A</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Space Battery</td>
+                                                <td>up to 4 batteries</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nominal lnput voltage</td>
+                                                <td>220 VAC single phase</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nominal Output voltage</td>
+                                                <td>48 VDC</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Output</td>
+                                                <td>Load dan battery charge</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Type Charging</td>
+                                                <td>Boosting, Floating dan Equalizing</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Ambient Temperatur</td>
+                                                <td>0-40 C</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Surge Protector</td>
+                                                <td>up to 4 kVA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Overvoltage Protector</td>
+                                                <td>up to 500 VAC</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Display (Analog atau digital)</td>
+                                                <td>Load current, Battery charge Current, Voltage</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Alarm/indicator</td>
+                                                <td>overload, voltage input dan output fail</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Communication</td>
+                                                <td>RS232, RS485/ Modbus, TCP/IP</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    <div class="col-sm-12 col-md-6 mb-3">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3 class="font-weight-bold text-3 mb-3">
+                                    Inverter 48 VDC to 220 VAC
+                                </h3>
+                                <img src="{{ asset('img/Inverter 48 VDC to 220 VAC.jpg') }}"
+                                    alt="Inverter 48 VDC to 220 VAC" style="width: auto; height: 150px;" class="mb-3" />
+                                <div class="table-responsive">
+                                    <table class="table table-borderless table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td>Capacity</td>
+                                                <td>Up to 10A</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nominal Input Voltage</td>
+                                                <td>220 VAC single phase</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Nominal Output voltage</td>
+                                                <td>220VAC</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Surge Protector</td>
+                                                <td>up to 4 kVA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Overvoltage Protector</td>
+                                                <td>up to 500 VAC</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <h3 class="font-weight-bold text-4 mb-0">
+                    LIFEPO4 BATTERY
+                </h3>
+                <img src="{{ asset('img/LIFEPO4 BATTERY.jpg') }}" alt="LIFEPO4 BATTERY" class="mb-3"
+                    style="width: auto; height: 150px;" />
+                <p class="mb-4">
+                    Customized dimension
+                    based on Panel dimension
+                    Voltage 12/48/110VDC
+                    Capacity 5-30 VA
+                    BMS 60A, maximum charging 30A
+                    Maximum Load 60A
+                    Enclosure Fiberglass sheet + PVC
+                    XT60 connectors
+                    Application
+                    DC power supply, Engine starting battery, electric bicycle/motorcycle/scooter,
+                    power tools and Solar Lighting
+                </p>
 
             </div>
 
