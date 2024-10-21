@@ -85,4 +85,29 @@ class HomeController extends Controller
     {
         return view('pages.products.energy_and_environment_management.energy_meters');
     }
+
+    public function products_energy_and_environment_management_gas_meters()
+    {
+        return view('pages.products.energy_and_environment_management.gas_meters');
+    }
+
+    public function products_energy_and_environment_management_water_meters()
+    {
+        return view('pages.products.energy_and_environment_management.water_meters');
+    }
+
+    public function products_energy_and_environment_management_cyble_nonmag_sensor()
+    {
+        return view('pages.products.energy_and_environment_management.cyble_nonmag_sensor');
+    }
+
+    public function products_energy_and_environment_management_lora_rtu()
+    {
+        return view('pages.products.energy_and_environment_management.lora_rtu');
+    }
+
+    public function products_energy_and_environment_management_cctv_and_electronic_security()
+    {
+        return view('pages.products.energy_and_environment_management.cctv_and_electronic_security');
+    }
 }

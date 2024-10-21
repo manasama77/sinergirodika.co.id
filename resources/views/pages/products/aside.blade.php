@@ -96,7 +96,7 @@
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link {{ in_array($currentRoute, ['products.energy-and-environment-management.energy-meters']) ? 'active' : '' }}"
+            <a class="nav-link {{ in_array($currentRoute, ['products.energy-and-environment-management.energy-meters', 'products.energy-and-environment-management.gas-meters', 'products.energy-and-environment-management.water-meters', 'products.energy-and-environment-management.cyble-nonmag-sensor', 'products.energy-and-environment-management.lora-rtu', 'products.energy-and-environment-management.cctv-and-electronic-security']) ? 'active' : '' }}"
                 href="{{ route('products.energy-and-environment-management.energy-meters') }}" data-hash
                 data-hash-offset="0" data-hash-offset-lg="95">
                 Energy And Environment Management
@@ -110,32 +110,37 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.energy-and-environment-management' ? route('solutions.electrical-service') : null }}#street-lighting">
+                    <a class="nav-link {{ $currentRoute == 'products.energy-and-environment-management.gas-meters' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.energy-and-environment-management.gas-meters') }}">
                         Gas Meters
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.energy-and-environment-management' ? route('solutions.electrical-service') : null }}#cctv">
+                    <a class="nav-link {{ $currentRoute == 'products.energy-and-environment-management.water-meters' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.energy-and-environment-management.water-meters') }}">
                         Water Meters
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.energy-and-environment-management' ? route('solutions.electrical-service') : null }}#water-flood-monitoring">
+                    <a class="nav-link {{ $currentRoute == 'products.energy-and-environment-management.cyble-nonmag-sensor' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.energy-and-environment-management.cyble-nonmag-sensor') }}">
                         Cybel Nomag Sensor
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.energy-and-environment-management' ? route('solutions.electrical-service') : null }}#water-flood-monitoring">
+                    <a class="nav-link {{ $currentRoute == 'products.energy-and-environment-management.lora-rtu' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.energy-and-environment-management.lora-rtu') }}">
                         Lora RTU
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.energy-and-environment-management' ? route('solutions.electrical-service') : null }}#water-flood-monitoring">
+                    <a class="nav-link {{ $currentRoute == 'products.energy-and-environment-management.cctv-and-electronic-security' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.energy-and-environment-management.cctv-and-electronic-security') }}">
                         CCTV & Electronic Security
                     </a>
                 </li>

@@ -62,29 +62,26 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#"
-                                                class="{{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf', 'products.electrical.energy-metering', 'products.electrical.scada-system', 'products.electrical.dc-power-supply', 'products.electrical.transformer-oil-purifier', 'products.electrical.distribution-transformer-monitoring', 'products.electrical.temperature-monitoring-ews', 'products.electrical-vehicle-charger.ac-and-small-dc-charger']) ? 'active' : '' }}">
+                                            <a class="dropdown-item dropdown-toggle {{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf', 'products.electrical.energy-metering', 'products.electrical.scada-system', 'products.electrical.dc-power-supply', 'products.electrical.transformer-oil-purifier', 'products.electrical.distribution-transformer-monitoring', 'products.electrical.temperature-monitoring-ews', 'products.electrical-vehicle-charger.ac-and-small-dc-charger', 'products.electrical-vehicle-charger.ultra-fast-dc-charger', 'products.energy-and-environment-management.energy-meters', 'products.energy-and-environment-management.gas-meters', 'products.energy-and-environment-management.water-meters', 'products.energy-and-environment-management.cyble-nonmag-sensor', 'products.energy-and-environment-management.lora-rtu', 'products.energy-and-environment-management.cctv-and-electronic-security']) ? 'active' : '' }}"
+                                                href="#">
                                                 Products
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('products.electrical.relay-protection') }}"
-                                                        class="{{ $currentRoute == 'products.electrical.relay-protection' ? 'active' : '' }}">
+                                                    <a class="dropdown-item {{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf', 'products.electrical.energy-metering', 'products.electrical.scada-system', 'products.electrical.dc-power-supply', 'products.electrical.transformer-oil-purifier', 'products.electrical.distribution-transformer-monitoring', 'products.electrical.temperature-monitoring-ews']) ? 'active' : '' }}"
+                                                        href="{{ route('products.electrical.relay-protection') }}">
                                                         Electrical
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}"
-                                                        class="{{ $currentRoute == 'products.electrical-vehicle-charger.ac-and-small-dc-charger' ? 'active' : '' }}">
+                                                    <a class="dropdown-item {{ in_array($currentRoute, ['products.electrical-vehicle-charger.ac-and-small-dc-charger', 'products.electrical-vehicle-charger.ultra-fast-dc-charger']) ? 'active' : '' }}"
+                                                        href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}">
                                                         Electric Vehicle Charger (SPKLU)
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('products.energy-and-environment-management.energy-meters') }}"
-                                                        class="{{ $currentRoute == 'products.energy-and-environment-management.energy-meters' ? 'active' : '' }}">
+                                                    <a class="dropdown-item {{ in_array($currentRoute, ['products.energy-and-environment-management.energy-meters', 'products.energy-and-environment-management.gas-meters', 'products.energy-and-environment-management.water-meters', 'products.energy-and-environment-management.cyble-nonmag-sensor', 'products.energy-and-environment-management.lora-rtu', 'products.energy-and-environment-management.cctv-and-electronic-security']) ? 'active' : '' }}"
+                                                        href="{{ route('products.energy-and-environment-management.energy-meters') }}">
                                                         Energy & Environment Management
                                                     </a>
                                                 </li>
