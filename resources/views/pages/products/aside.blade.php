@@ -7,7 +7,8 @@
     <h5 class="font-weight-semi-bold">Products</h5>
     <ul class="nav nav-list flex-column mb-5">
         <li class="nav-item">
-            <a class="nav-link active" href="#">
+            <a class="nav-link {{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf', 'products.electrical.energy-metering', 'products.electrical.scada-system', 'products.electrical.dc-power-supply', 'products.electrical.transformer-oil-purifier', 'products.electrical.distribution-transformer-monitoring', 'products.electrical.temperature-monitoring-ews']) ? 'active' : '' }}"
+                href="#">
                 Electrical
             </a>
             <ul>
@@ -73,33 +74,38 @@
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" href="{{ route('solutions.electrical-service') }}">
+            <a class="nav-link {{ in_array($currentRoute, ['products.electrical-vehicle-charger.ac-and-small-dc-charger', 'products.electrical-vehicle-charger.ultra-fast-dc-charger']) ? 'active' : '' }}"
+                href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}">
                 ELECTRIC VEHICLE CHARGER (SPKLU)
             </a>
             <ul>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash-force data-hash-offset="0" data-hash-offset-md="95"
-                        href="{{ $currentRoute != 'solutions.electrical-service' ? route('solutions.electrical-service') : null }}#relay-protection">
+                    <a class="nav-link {{ $currentRoute == 'products.electrical-vehicle-charger.ac-and-small-dc-charger' ? 'active' : '' }}"
+                        data-hash-force data-hash-offset="0" data-hash-offset-md="95"
+                        href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}">
                         AC and Small DC Charger
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash-force data-hash-offset="0" data-hash-offset-md="95"
-                        href="{{ $currentRoute != 'solutions.electrical-service' ? route('solutions.electrical-service') : null }}#relay-protection">
+                    <a class="nav-link {{ $currentRoute == 'products.electrical-vehicle-charger.ultra-fast-dc-charger' ? 'active' : '' }}"
+                        data-hash-force data-hash-offset="0" data-hash-offset-md="95"
+                        href="{{ route('products.electrical-vehicle-charger.ultra-fast-dc-charger') }}">
                         Ultra Fast DC Charger
                     </a>
                 </li>
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                href="{{ route('solutions.energy-and-environment-management') }}">
+            <a class="nav-link {{ in_array($currentRoute, ['products.energy-and-environment-management.energy-meters']) ? 'active' : '' }}"
+                href="{{ route('products.energy-and-environment-management.energy-meters') }}" data-hash
+                data-hash-offset="0" data-hash-offset-lg="95">
                 Energy And Environment Management
             </a>
             <ul>
                 <li class="nav-item">
-                    <a class="nav-link" data-hash data-hash-offset="0" data-hash-offset-lg="95"
-                        href="{{ $currentRoute != 'solutions.energy-and-environment-management' ? route('solutions.electrical-service') : null }}#energy-monitoring-for-utilities">
+                    <a class="nav-link {{ $currentRoute == 'products.energy-and-environment-management.energy-meters' ? 'active' : '' }}"
+                        data-hash data-hash-offset="0" data-hash-offset-lg="95"
+                        href="{{ route('products.energy-and-environment-management.energy-meters') }}">
                         Energy Meters
                     </a>
                 </li>

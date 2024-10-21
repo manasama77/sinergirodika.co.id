@@ -63,7 +63,7 @@
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#"
-                                                class="{{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf']) ? 'active' : '' }}">
+                                                class="{{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf', 'products.electrical.energy-metering', 'products.electrical.scada-system', 'products.electrical.dc-power-supply', 'products.electrical.transformer-oil-purifier', 'products.electrical.distribution-transformer-monitoring', 'products.electrical.temperature-monitoring-ews', 'products.electrical-vehicle-charger.ac-and-small-dc-charger']) ? 'active' : '' }}">
                                                 Products
                                             </a>
                                             <ul class="dropdown-menu">
@@ -76,15 +76,15 @@
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="{{ route('products.electrical-vehicle-charger') }}"
-                                                        class="{{ $currentRoute == 'products.electrical-vehicle-charger' ? 'active' : '' }}">
+                                                        href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}"
+                                                        class="{{ $currentRoute == 'products.electrical-vehicle-charger.ac-and-small-dc-charger' ? 'active' : '' }}">
                                                         Electric Vehicle Charger (SPKLU)
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item"
-                                                        href="{{ route('products.energy-and-environment-management') }}"
-                                                        class="{{ $currentRoute == 'products.energy-and-environment-management' ? 'active' : '' }}">
+                                                        href="{{ route('products.energy-and-environment-management.energy-meters') }}"
+                                                        class="{{ $currentRoute == 'products.energy-and-environment-management.energy-meters' ? 'active' : '' }}">
                                                         Energy & Environment Management
                                                     </a>
                                                 </li>
@@ -105,7 +105,7 @@
                                         </li>
                                         <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle" href="#"
-                                                class="{{ in_array($currentRoute, ['products.electrical', 'products.electrical-vehicle-charger', 'products.energy-and-environment-management', 'products.water-tank', 'products.test-and-measurement-tools']) ? 'active' : '' }}">
+                                                class="{{ in_array($currentRoute, []) ? 'active' : '' }}">
                                                 Projects
                                             </a>
                                             <ul class="dropdown-menu">
@@ -124,8 +124,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('products.electrical-vehicle-charger') }}">
+                                                    <a class="dropdown-item" href="{{ route('home') }}">
                                                         Energy Metering
                                                     </a>
                                                 </li>

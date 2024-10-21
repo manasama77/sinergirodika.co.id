@@ -19,8 +19,11 @@ Route::get('/products/electrical/transformer-oil-purifier', [HomeController::cla
 Route::get('/products/electrical/distribution-transformer-monitoring', [HomeController::class, 'products_electrical_distribution_transformer_monitoring'])->name('products.electrical.distribution-transformer-monitoring');
 Route::get('/products/electrical/temperature-monitoring-ews', [HomeController::class, 'products_electrical_temperature_monitoring_ews'])->name('products.electrical.temperature-monitoring-ews');
 
-Route::get('/products/electrical-vehicle-charger', [HomeController::class, 'products_electrical_vehicle_charger'])->name('products.electrical-vehicle-charger');
-Route::get('/products/energy-and-environment-management', [HomeController::class, 'products_energy_and_environment_management'])->name('products.energy-and-environment-management');
+Route::get('/products/electrical-vehicle-charger/ac-and-small-dc-charger', [HomeController::class, 'products_electrical_vehicle_charger_ac_and_small_dc_charger'])->name('products.electrical-vehicle-charger.ac-and-small-dc-charger');
+Route::get('/products/electrical-vehicle-charger/ultra-fast-dc-charger', [HomeController::class, 'products_electrical_vehicle_charger_ultra_fast_dc_charger'])->name('products.electrical-vehicle-charger.ultra-fast-dc-charger');
+
+Route::get('/products/energy-and-environment-management/energy-meters', [HomeController::class, 'products_energy_and_environment_management_energy_meters'])->name('products.energy-and-environment-management.energy-meters');
+
 Route::get('/products/water-tank', [HomeController::class, 'products_water_tank'])->name('products.water-tank');
 Route::get('/products/test-and-measurement-tools', [HomeController::class, 'test_and_measurement_tools'])->name('products.test-and-measurement-tools');
 

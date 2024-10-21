@@ -70,4 +70,19 @@ class HomeController extends Controller
     {
         return view('pages.products.electrical.temperature_monitoring_ews');
     }
+
+    public function products_electrical_vehicle_charger_ac_and_small_dc_charger()
+    {
+        return view('pages.products.electrical_vehicle_charger.ac_and_small_dc_charger');
+    }
+
+    public function products_electrical_vehicle_charger_ultra_fast_dc_charger()
+    {
+        return view('pages.products.electrical_vehicle_charger.ultra_fast_dc_charger');
+    }
+
+    public function products_energy_and_environment_management_energy_meters()
+    {
+        return view('pages.products.energy_and_environment_management.energy_meters');
+    }
 }
