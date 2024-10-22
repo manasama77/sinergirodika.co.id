@@ -57,8 +57,8 @@
 
                     <div class="row mb-3">
                         <div class="col">
-                            <h4 class="font-weight-bold text-3 mb-2">GENERATOR SET</h4>
-                            <p class="mb-2">
+                            <h4 class="font-weight-bold text-3 mb-0">GENERATOR SET</h4>
+                            <p class="mb-2 text-2">
                                 Supply and New Installation as main or backup power supply, Ranging from 25-2500 kVA,
                                 Open or
                                 Silent type to Mobile Trailer option.<br />
@@ -74,8 +74,8 @@
                             </p>
                         </div>
                         <div class="col">
-                            <h4 class="font-weight-bold text-3 mb-2">ATS & UPS</h4>
-                            <p>
+                            <h4 class="font-weight-bold text-3 mb-0">ATS & UPS</h4>
+                            <p class="text-2">
                                 Electrical Installations: Comprehensive services for the installation and maintenance of
                                 electricity infrastructure, including connections to PLN and necessary installation
                                 using
