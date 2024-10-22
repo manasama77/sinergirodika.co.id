@@ -29,7 +29,7 @@
                         <h3 class="font-weight-extra-normal text-5 mb-3">
                             <strong class="font-weight-extra-bold">RECTIFIERS AND BATTERIES</strong>
                         </h3>
-                        <ol>
+                        <ol class="text-2">
                             <li>Installation 20 Set Rectifier 48 VDC, Inverter 220 VAC and
                                 Battery Enermild in 20 GH, PT PLN UP2D RIAU, Year : 2023
                             </li>

@@ -77,6 +77,10 @@
         @include('partials.footer')
     </div>
 
+    <a href="https://api.whatsapp.com/send?phone=628111923762" class="wa-link-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
     <!-- Vendor -->
     <script src="{{ asset('vendor/plugins/js/plugins.min.js') }}"></script>
 

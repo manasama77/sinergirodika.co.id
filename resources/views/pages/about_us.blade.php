@@ -166,10 +166,10 @@
                         <div class="tab-pane tab-pane-navigation" id="tabCertificates">
                             <h4>Certificates</h4>
                             <ol type="A">
-                                <li class="font-weight-bold text-dark">
+                                <li class="font-weight-bold text-dark m-0">
                                     Akta Pendirian PT
                                 </li>
-                                <table class="table table-borderless table-sm">
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 120px;">Nomor Akta</th>
@@ -189,8 +189,8 @@
                                     </tbody>
                                 </table>
 
-                                <li class="font-weight-bold text-dark">Nomor Induk Berusaha (NIB)</li>
-                                <table class="table table-borderless table-sm">
+                                <li class="font-weight-bold text-dark m-0">Nomor Induk Berusaha (NIB)</li>
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 120px;">Nomor</th>
@@ -218,7 +218,7 @@
                                 <li class="font-weight-bold text-dark">
                                     Sertifikat ISO 9001
                                 </li>
-                                <table class="table table-borderless table-sm">
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 120px;">No Certificate</th>
@@ -246,13 +246,13 @@
                                 <li class="font-weight-bold text-dark">
                                     FINANCE RECOGNATION BY DNB
                                 </li>
-                                <p class="text-dark">
+                                <p class="text-dark mb-1">
                                     D&B Rating 3A3<br />
                                     Financial Strength 3A Based on tangible net
                                     worth of IDR 3,600,000,000 to IDR 17,999,999,999
                                     Risk Definition 3 Sufficient capacity for meeting payment liabilities
                                 </p>
-                                <table class="table table-borderless table-sm">
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 120px;">Valid until</th>

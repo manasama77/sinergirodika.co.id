@@ -8,6 +8,7 @@
 
         .table-sm>:not(caption)>*>* {
             padding: 0.2rem 0.2rem;
+            line-height: 18px;
         }
     </style>
 @endsection
@@ -26,7 +27,7 @@
 
                 <div class="row">
                     <div class="col-sm-12 col-md-7">
-                        <ol>
+                        <ol class="text-2">
                             <li>Xray Scanner and Walkthrough Metal Detector</li>
                             <div class="table-responsive">
                                 <table class="table table-sm">

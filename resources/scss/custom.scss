@@ -73,3 +73,47 @@ table > tbody > tr > td {
 .dropdown-item:active {
     background-color: transparent;
 }
+
+.table-certificate {
+    margin-bottom: 5px !important;
+    tr > td,
+    th {
+        font-size: 12px !important;
+        padding: 0px !important;
+    }
+}
+
+.wa-link-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 55px;
+    right: 13px;
+    background-color: #25d366;
+    color: #fff !important;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+    i {
+        margin-top: 16px;
+    }
+}
+
+ul.nav-list li a:before {
+    color: #ee9e20;
+}
+
+aside ul.nav-list > li > a {
+    color: #ee9e20;
+}
+
+aside ul.nav-list > li > a:hover {
+    font-weight: 500;
+}
+
+ul.nav-list li > a.active {
+    color: #ee9e20;
+}

@@ -26,7 +26,7 @@
 
                 <div class="row">
                     <div class="col-sm-12 col-md-7">
-                        <ol>
+                        <ol class="text-2">
                             <li>Installation 20 units Energy Meters EDMI MK6E Class 0.2s and supporting devices in 20
                                 locations PT PLN Nusantara Power Kapuas Kalimantan Barat , Year 2023-2024</li>
                             <li>Installation Multi channel Meter for Online Losses Monitoring (OLM) Distribution Transformer

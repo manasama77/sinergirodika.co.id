@@ -8,6 +8,7 @@
 
         .table-sm>:not(caption)>*>* {
             padding: 0.2rem 0.2rem;
+            line-height: 18px;
         }
     </style>
 @endsection
@@ -25,8 +26,8 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-7">
-                        <ol>
+                    <div class="col-sm-12 col-md-8">
+                        <ol class="text-2">
                             <li>Backup Power Supply for Substation</li>
                             <div class="table-responsive">
                                 <table class="table table-sm">
@@ -92,7 +93,7 @@
                             </div>
                         </ol>
                     </div>
-                    <div class="col-sm-12 col-md-5">
+                    <div class="col-sm-12 col-md-4">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
                                 <div class="d-flex justify-content-center">

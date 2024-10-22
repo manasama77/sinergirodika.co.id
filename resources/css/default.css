@@ -1091,15 +1091,17 @@ html .nav-pills-light > li.active > a:focus {
 }
 
 .nav-link:hover {
-    color: #0099e6;
+    /* color: #0099e6; */
+    color: #ee9e20;
 }
 
 .nav-link:focus {
-    color: #0099e6;
+    color: #ee9e20;
 }
 
 .nav-link:active {
-    color: #0077b3;
+    color: #ee9e20;
+    font-weight: 500;
 }
 
 .section-scroll-dots-navigation-colored > ul > li.active > a:before {
@@ -5088,7 +5090,8 @@ section.video blockquote i.fa-quote-left {
 }
 
 .accordion .card-header a {
-    color: #0088cc;
+    /* color: #0088cc; */
+    color: #ee9e20;
 }
 
 html .accordion.accordion-primary .card-header {

@@ -27,15 +27,16 @@
                 <div class="d-flex justify-content-center">
                     <div>
                         <img src="{{ asset('img/Line Differential Relay - UP3B Kalbar.png') }}"
-                            alt="Line Differential Relay - UP3B Kalbar" class="mb-3 img-fluid" style="max-height: 300px;" />
+                            alt="Line Differential Relay - UP3B Kalbar" class="img-fluid" style="max-height: 300px;" />
                     </div>
                 </div>
-                <h4 class="font-weight-extra-normal text-2 mb-3">
+                <h4 class="font-weight-extra-normal text-2 mb-3 text-center">
                     Line Differential Relay - UP3B Kalbar
                 </h4>
 
-                <ol>
-                    <li>Installation 10 unit LCD relays MICOM P543 for 5 lines of 150 kV Transmission and integration to
+                <ol class="text-2">
+                    <li>Installation 10 unit LCD relays MICOM P543 for 5 lines of 150 kV Transmission and
+                        integration to
                         existing SAS Location GI PARIT BARU, GI SENGGIRING, GI PLTU BENGKAYANG, GI SINGKAWANG
                         PT PLN UP3B Sistem Kalbar, Year : 2021-2022
                     </li>

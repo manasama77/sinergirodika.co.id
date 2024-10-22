@@ -8,6 +8,7 @@
 
         .table-sm>:not(caption)>*>* {
             padding: 0.2rem 0.2rem;
+            line-height: 18px;
         }
     </style>
 @endsection
@@ -25,8 +26,8 @@
                 </h2>
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-7">
-                        <ol>
+                    <div class="col-sm-12 col-md-8">
+                        <ol class="text-2">
                             <li>Transformer Oil Purifier for Substation 2000 LH and 4000 LH</li>
                             <div class="table-responsive">
                                 <table class="table table-sm">
@@ -69,13 +70,13 @@
 
                         </ol>
                     </div>
-                    <div class="col-sm-12 col-md-5">
+                    <div class="col-sm-12 col-md-4">
                         <div class="row">
                             <div class="col-sm-12 mb-3">
                                 <div class="d-flex justify-content-center">
                                     <div>
                                         <img src="{{ asset('img/PLN Maluku 2019.png') }}" alt="PLN Maluku 2019"
-                                            class="img-fluid" style="max-height: 300px;" />
+                                            class="img-fluid" />
                                     </div>
                                 </div>
                                 <h4 class="font-weight-extra-normal text-2 mb-3 text-center">
@@ -85,8 +86,8 @@
                             <div class="col-sm-12 mb-3">
                                 <div class="d-flex justify-content-center">
                                     <div>
-                                        <img src="{{ asset('img/PLN NTB 2018.jpg') }}" alt="PLN NTB 2018" class="img-fluid"
-                                            style="max-height: 300px;" />
+                                        <img src="{{ asset('img/PLN NTB 2018.jpg') }}" alt="PLN NTB 2018"
+                                            class="img-fluid" />
                                     </div>
                                 </div>
                                 <h4 class="font-weight-extra-normal text-2 mb-3 text-center">
