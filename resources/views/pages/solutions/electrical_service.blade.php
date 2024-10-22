@@ -2,13 +2,13 @@
 
 @section('css')
     <style>
-        html,
-        body {
-            scroll-margin-top: 10px;
-        }
-
-        #relay-protection {
-            scroll-margin-top: 85px;
+        #relay-protection,
+        #generator-ats-amf-and-ups,
+        #energy-metering,
+        #scada-system,
+        #dc-power-supply,
+        #transformer-oil-purifier {
+            scroll-margin-top: 95px;
         }
     </style>
 @endsection

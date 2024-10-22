@@ -2,13 +2,11 @@
 
 @section('css')
     <style>
-        html,
-        body {
-            scroll-margin-top: 10px;
-        }
-
-        #relay-protection {
-            scroll-margin-top: 85px;
+        #energy-monitoring-for-utilities,
+        #street-lighting,
+        #cctv,
+        #water-flood-monitoring {
+            scroll-margin-top: 95px;
         }
     </style>
 @endsection
