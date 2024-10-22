@@ -33,13 +33,13 @@
                         networks. End users application both PC and mobile apps provide comprehensive data on online monitor
                         and control and billing management</p>
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.energy-and-environment-management.energy-meters') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.energy-metering') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -91,13 +91,13 @@
                         consumption and man power</p>
 
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        {{-- <a href="#"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a> --}}
+                        <a href="{{ route('projects.street-lamps-and-warehouse') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -142,13 +142,13 @@
                     </p>
 
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.energy-and-environment-management.cctv-and-electronic-security') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.cctv-and-metal-detectors') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -157,7 +157,8 @@
                 <div id="water-flood-monitoring" class="my-3">
                     <h3 class="font-weight-bold text-4 mb-2">WATER/ FLOOD MONITORING</h3>
                     <div class="col-12 col-md-6 offset-md-3 my-3">
-                        <img class="img-fluid m-3" src="{{ asset('img/Flood-Monitor.png') }}" alt="WATER/ FLOOD MONITORING">
+                        <img class="img-fluid m-3" src="{{ asset('img/Flood-Monitor.png') }}"
+                            alt="WATER/ FLOOD MONITORING">
                     </div>
                     <p class="mb-4">
                         Monitoring water level with IoT sensor to monitor the river water level due to flood. Submersible
@@ -204,14 +205,14 @@
                     </div>
 
                     <div class="d-flex gap-3 mt-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        {{-- <a href="#"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
-                        </a>
+                        </a> --}}
+                        {{-- <a href="#"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
+                        </a> --}}
                     </div>
                 </div>
 

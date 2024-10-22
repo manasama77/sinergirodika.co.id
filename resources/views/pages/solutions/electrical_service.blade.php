@@ -33,13 +33,13 @@
                         Transformer Differential, Line Current Differential,
                         Under Frequency Relay</p>
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.electrical.relay-protection') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.relay-protection') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -93,13 +93,13 @@
                     </div>
 
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.electrical.generator-ats-amf') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.generator-ats-amf') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -109,13 +109,13 @@
                     <h3 class="font-weight-bold text-4 mb-2">Energy Metering</h3>
                     <p>Kwh meter Class 0.2s and 0.5, Power Quality monitoring, Voltage dip/Sag/swell</p>
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.electrical.energy-metering') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.energy-metering') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -141,13 +141,13 @@
                     </ul>
 
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.electrical.scada-system') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.scada-system') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -157,13 +157,13 @@
                     <h3 class="font-weight-bold text-4 mb-2">DC power supply</h3>
                     <p>Rectifier 24/48/110 VDC, Inverter DC/220VAC, Battery LifePO4 </p>
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.electrical.dc-power-supply') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.dc-power-supply') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
@@ -176,13 +176,13 @@
                         inductors and cable with Capacity : 2000, 4000, 6000 liter/hour based on size of transformer
                     </p>
                     <div class="d-flex gap-3">
-                        <a href="#"
-                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
-                            <i class="fas fa-angles-right fa-fw"></i> More Project
-                        </a>
-                        <a href="#"
+                        <a href="{{ route('products.electrical.transformer-oil-purifier') }}"
                             class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                             <i class="fas fa-angles-right fa-fw"></i> More Product
+                        </a>
+                        <a href="{{ route('projects.transformer-oil-purifier') }}"
+                            class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
+                            <i class="fas fa-angles-right fa-fw"></i> More Project
                         </a>
                     </div>
                 </div>
