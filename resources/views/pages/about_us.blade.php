@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row mt-5">
+        <div class="row mt-0 mt-md-3">
             <div class="col">
                 <h4 class="mb-4">About Us</h4>
 
@@ -50,17 +50,18 @@
                                 of commercial and industrial projects :</p>
                             <ul>
                                 <li>
-                                    <a href="{{ route('solutions.electrical-service') }}">
+                                    <a href="{{ route('solutions.electrical-service') }}" class="font-weight-bold">
                                         Substation, Backup power supply, Scada and Automation,
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('solutions.electrical-vehicle-charger') }}">
+                                    <a href="{{ route('solutions.electrical-vehicle-charger') }}" class="font-weight-bold">
                                         Electric Vehicle Charger (SPKLU) and
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('solutions.energy-and-environment-management') }}">
+                                    <a href="{{ route('solutions.energy-and-environment-management') }}"
+                                        class="font-weight-bold">
                                         Energy (Electricity, water and gas) & Environment Management.
                                     </a>
                                 </li>

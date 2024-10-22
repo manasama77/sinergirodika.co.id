@@ -25,13 +25,13 @@
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
                                             <a href="{{ route('home') }}"
-                                                class="{{ $currentRoute == 'home' ? 'active' : '' }}">
+                                                class="dropdown-item {{ $currentRoute == 'home' ? 'active' : '' }}">
                                                 Home
                                             </a>
                                         </li>
                                         <li>
                                             <a href="{{ route('about-us') }}"
-                                                class="{{ $currentRoute == 'about-us' ? 'active' : '' }}">
+                                                class="dropdown-item {{ $currentRoute == 'about-us' ? 'active' : '' }}">
                                                 About Us
                                             </a>
                                         </li>

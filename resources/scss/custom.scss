@@ -15,15 +15,6 @@ table > tbody > tr > td {
     }
 }
 
-.logo-footer-custom {
-    width: 22vh;
-
-    // media min bootstrap 5 md breakpoint
-    @media (min-width: 768px) {
-        width: 45vh;
-    }
-}
-
 .text-pt-footer {
     font-size: 1.4rem;
     color: white;
@@ -66,4 +57,19 @@ table > tbody > tr > td {
 .bg-color-sinergi {
     // backgrond color linear gradient to right from #62B967 to #0E244B
     background-image: linear-gradient(to left, #64b964, #0e244b) !important;
+}
+
+.tabs-navigation .nav-tabs > li .nav-link {
+    padding: 8px;
+}
+
+.mt-md-3 {
+    @media (min-width: 768px) {
+        margin-top: 1.5rem !important;
+    }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: transparent;
 }

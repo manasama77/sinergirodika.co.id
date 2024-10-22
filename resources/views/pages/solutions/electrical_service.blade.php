@@ -56,9 +56,9 @@
                         alt="Genset Scheme" />
 
                     <div class="row mb-3">
-                        <div class="col">
+                        <div class="col-sm-12 col-md-6">
                             <h4 class="font-weight-bold text-3 mb-0">GENERATOR SET</h4>
-                            <p class="mb-2 text-2">
+                            <p class="text-2">
                                 Supply and New Installation as main or backup power supply, Ranging from 25-2500 kVA,
                                 Open or
                                 Silent type to Mobile Trailer option.<br />
@@ -73,7 +73,7 @@
                                 businesses optimize their energy use and reduce costs.
                             </p>
                         </div>
-                        <div class="col">
+                        <div class="col-sm-12 col-md-6">
                             <h4 class="font-weight-bold text-3 mb-0">ATS & UPS</h4>
                             <p class="text-2">
                                 Electrical Installations: Comprehensive services for the installation and maintenance of

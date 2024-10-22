@@ -12,7 +12,7 @@
             <div class="row py-5 text-center text-lg-start">
                 <div class="col-sm-12 col-lg-4">
                     <img src="{{ asset('img/sinergi-logo.png') }}" alt="Logo"
-                        class="pe-lg-5 mb-4 mb-lg-0 logo-footer-custom">
+                        class="pe-lg-5 mb-4 mb-lg-0 logo-footer-custom img-fluid" style="max-width: 300px;">
                     <p class="text-pt-footer">PT SINERGI RODIKA UTAMA</p>
                     <p class="text-pt-footer-small">Electrical And Scada System Energy And Environment Management
                         Painting

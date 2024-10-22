@@ -5,18 +5,18 @@
 
 ::selection {
     color: #fff;
-    background: #0088cc;
+    background: #0d59b1;
 }
 
 :root {
-    --primary: #0088cc;
+    --primary: #0d59b1;
     --secondary: #e36159;
     --tertiary: #2baab1;
     --quaternary: #383f48;
 }
 
 a {
-    color: #0088cc;
+    color: #0d59b1;
 }
 
 a:hover {
@@ -5464,7 +5464,7 @@ html[dir="rtl"] #header .tip-light:before {
 }
 
 #header .header-btn-collapse-nav {
-    background: #0088cc;
+    background: #0d59b0;
 }
 
 @media (min-width: 992px) {
@@ -7164,7 +7164,7 @@ html[dir="rtl"] #header .tip-light:before {
         > ul
         > li
         > a {
-        color: #0088cc;
+        color: #0d59b1;
     }
 
     #header
@@ -7182,7 +7182,8 @@ html[dir="rtl"] #header .tip-light:before {
         > ul
         > li
         > a.active {
-        background: #0088cc;
+        background: transparent;
+        /* background: ; */
     }
 
     #header
@@ -7197,7 +7198,8 @@ html[dir="rtl"] #header .tip-light:before {
         > ul
         > li
         > a.active:hover {
-        background: #0088cc;
+        /* background: #0088cc; */
+        background: transparent;
     }
 
     #header

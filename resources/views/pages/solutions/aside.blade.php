@@ -6,7 +6,7 @@
 
     <h5 class="font-weight-semi-bold">Solutions</h5>
 
-    <div class="accordion accordion-sm" id="accordion">
+    <div class="accordion accordion-sm mb-3" id="accordion">
         <div class="card card-default">
             <div class="card-header">
                 <h4 class="card-title text-3 m-0">
