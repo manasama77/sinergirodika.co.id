@@ -30,7 +30,8 @@ Route::get('/products/energy-and-environment-management/lora-rtu', [HomeControll
 Route::get('/products/energy-and-environment-management/cctv-and-electronic-security', [HomeController::class, 'products_energy_and_environment_management_cctv_and_electronic_security'])->name('products.energy-and-environment-management.cctv-and-electronic-security');
 
 Route::get('/products/water-tank', [HomeController::class, 'products_water_tank'])->name('products.water-tank');
-Route::get('/products/test-and-measurement-tools', [HomeController::class, 'test_and_measurement_tools'])->name('products.test-and-measurement-tools');
+Route::get('/products/test-and-measurement-tools', [HomeController::class, 'products_test_and_measurement_tools'])->name('products.test-and-measurement-tools');
+
 
 Route::get('/project/relay-protection', [HomeController::class, 'projects_relay_protection'])->name('projects.relay-protection');
 Route::get('/project/generator-ats-amf', [HomeController::class, 'generator_ats_amf'])->name('projects.generator-ats-amf');

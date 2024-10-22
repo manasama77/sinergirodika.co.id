@@ -147,12 +147,14 @@
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('solutions.electrical-vehicle-charger') }}">
+            <a class="nav-link {{ $currentRoute == 'products.water-tank' ? 'active' : '' }}"
+                href="{{ route('products.water-tank') }}">
                 WATER TANK
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('solutions.electrical-vehicle-charger') }}">
+            <a class="nav-link {{ $currentRoute == 'products.test-and-measurement-tools' ? 'active' : '' }}"
+                href="{{ route('products.test-and-measurement-tools') }}">
                 TEST & MEASUREMENT TOOLS
             </a>
         </li>

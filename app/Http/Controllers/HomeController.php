@@ -110,4 +110,14 @@ class HomeController extends Controller
     {
         return view('pages.products.energy_and_environment_management.cctv_and_electronic_security');
     }
+
+    public function products_water_tank()
+    {
+        return view('pages.products.water_tank');
+    }
+
+    public function products_test_and_measurement_tools()
+    {
+        return view('pages.products.test_and_measurement_tools');
+    }
 }
