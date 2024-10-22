@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\GuestBookMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -160,5 +162,31 @@ class HomeController extends Controller
     public function projects_cctv_and_metal_detectors()
     {
         return view('pages.projects.cctv_and_metal_detectors');
+    }
+
+    public function contact_us()
+    {
+        return view('pages.contact_us');
+    }
+
+    public function send_mail(Request $request)
+    {
+        $request->validate([
+            'full_name' => ['required'],
+            'email'     => ['required', 'email:rfc,dns'],
+            'whatsapp'  => ['required'],
+            'subject'   => ['required'],
+            'message'   => ['required'],
+        ]);
+
+        $mail = Mail::to($request->email)->send(new GuestBookMail($request->full_name, $request->email, $request->whatsapp, $request->subject, $request->message));
+
+
+        if (!$mail) {
+            return redirect()->back()->with('error', 'Something went wrong, please try again.');
+        }
+
+
+        return redirect()->back()->with('success', 'Your message has been sent successfully.');
     }
 }

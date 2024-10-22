@@ -41,4 +41,5 @@ Route::get('/project/transformer-oil-purifier', [HomeController::class, 'project
 Route::get('/project/street-lamps-and-warehouse', [HomeController::class, 'projects_street_lamps_and_warehouse'])->name('projects.street-lamps-and-warehouse');
 Route::get('/project/cctv-and-metal-detectors', [HomeController::class, 'projects_cctv_and_metal_detectors'])->name('projects.cctv-and-metal-detectors');
 
-Route::get('/contact-us', [HomeController::class, 'contact-us'])->name('contact-us');
+Route::get('/contact-us', [HomeController::class, 'contact_us'])->name('contact-us');
+Route::post('/send-mail', [HomeController::class, 'send_mail'])->name('send-mail');
