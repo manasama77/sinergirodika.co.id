@@ -100,62 +100,56 @@
                                             </ul>
                                         </li>
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#"
-                                                class="{{ in_array($currentRoute, []) ? 'active' : '' }}">
+                                            <a href="#"
+                                                class="dropdown-item dropdown-toggle {{ in_array($currentRoute, ['projects.relay-protection', 'projects.generator-ats-amf', 'projects.energy-metering', 'projects.scada-system', 'projects.dc-power-supply', 'projects.transformer-oil-purifier', 'projects.street-lamps-and-warehouse', 'projects.cctv-and-metal-detectors']) ? 'active' : '' }}">
                                                 Projects
                                             </a>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.relay-protection') }}"
-                                                        class="{{ $currentRoute == 'projects.relay-protection' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.relay-protection') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.relay-protection' ? 'active' : '' }}">
                                                         Relay Protection
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.generator-ats-amf') }}"
-                                                        class="{{ $currentRoute == 'projects.generator-ats-amf' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.generator-ats-amf') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.generator-ats-amf' ? 'active' : '' }}">
                                                         Generator ATS AMF
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item" href="{{ route('home') }}">
+                                                    <a href="{{ route('projects.energy-metering') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.energy-metering' ? 'active' : '' }}">
                                                         Energy Metering
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.scada-system') }}"
-                                                        class="{{ $currentRoute == 'projects.scada-system' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.scada-system') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.scada-system' ? 'active' : '' }}">
                                                         Scada System
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.dc-power-supply') }}"
-                                                        class="{{ $currentRoute == 'projects.dc-power-supply' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.dc-power-supply') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.dc-power-supply' ? 'active' : '' }}">
                                                         DC power Supply
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.transformer-oil-purifier') }}"
-                                                        class="{{ $currentRoute == 'projects.transformer-oil-purifier' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.transformer-oil-purifier') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.transformer-oil-purifier' ? 'active' : '' }}">
                                                         Transformer Oil Purifier
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.street-lamps-and-warehouse') }}"
-                                                        class="{{ $currentRoute == 'projects.street-lamps-and-warehouse' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.street-lamps-and-warehouse') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.street-lamps-and-warehouse' ? 'active' : '' }}">
                                                         Street Lamps and Warehouse
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="dropdown-item"
-                                                        href="{{ route('projects.cctv-and-metal-detectors') }}"
-                                                        class="{{ $currentRoute == 'projects.cctv-and-metal-detectors' ? 'active' : '' }}">
+                                                    <a href="{{ route('projects.cctv-and-metal-detectors') }}"
+                                                        class="dropdown-item {{ $currentRoute == 'projects.cctv-and-metal-detectors' ? 'active' : '' }}">
                                                         CCTV and Metal Detectors
                                                     </a>
                                                 </li>

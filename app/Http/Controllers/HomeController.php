@@ -120,4 +120,45 @@ class HomeController extends Controller
     {
         return view('pages.products.test_and_measurement_tools');
     }
+
+
+    public function projects_relay_protection()
+    {
+        return view('pages.projects.relay_protection');
+    }
+
+    public function projects_generator_ats_amf()
+    {
+        return view('pages.projects.generator_ats_amf');
+    }
+
+    public function projects_energy_metering()
+    {
+        return view('pages.projects.energy_metering');
+    }
+
+    public function projects_scada_system()
+    {
+        return view('pages.projects.scada_system');
+    }
+
+    public function projects_dc_power_supply()
+    {
+        return view('pages.projects.dc_power_supply');
+    }
+
+    public function projects_transformer_oil_purifier()
+    {
+        return view('pages.projects.transformer_oil_purifier');
+    }
+
+    public function projects_street_lamps_and_warehouse()
+    {
+        return view('pages.projects.street_lamps_and_warehouse');
+    }
+
+    public function projects_cctv_and_metal_detectors()
+    {
+        return view('pages.projects.cctv_and_metal_detectors');
+    }
 }
