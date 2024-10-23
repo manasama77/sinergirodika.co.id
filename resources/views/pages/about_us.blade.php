@@ -4,10 +4,9 @@
     <div class="container">
         <div class="row mt-0 mt-md-3">
             <div class="col">
-                <h4 class="mb-4">About Us</h4>
-
                 <div class="row">
                     <div class="col-lg-4">
+                        <h4 class="mb-4">About Us</h4>
                         <div class="tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple">
                             <ul class="nav nav-tabs col-sm-3">
                                 <li class="nav-item">
@@ -165,7 +164,7 @@
                         </div>
                         <div class="tab-pane tab-pane-navigation" id="tabCertificates">
                             <h4>Certificates</h4>
-                            <ol type="A">
+                            <ol type="A" class="text-2">
                                 <li class="font-weight-bold text-dark m-0">
                                     Akta Pendirian PT
                                 </li>
@@ -270,11 +269,11 @@
                         </div>
                         <div class="tab-pane tab-pane-navigation" id="TabSBUJPTLIUJPTLSBUJK">
                             <h4>SBUJPTL, IUJPTL, SBUJK</h4>
-                            <ol type="A">
+                            <ol type="A" class="text-2">
                                 <li class="font-weight-bold text-dark">
                                     Sertifikat Badan Usaha Jasa Penunjang Tenaga Listrik (SBUJPTL)
                                 </li>
-                                <table class="table table-borderless table-sm">
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 130px;">No Certificate</th>
@@ -326,7 +325,7 @@
 
                                 <li class="font-weight-bold text-dark">Sertifikat Ijin Usaha Jasa Penunjang Tenaga Listrik
                                     (IUJPTL)</li>
-                                <table class="table table-borderless table-sm">
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 120px;">No Certificate</th>
@@ -374,7 +373,7 @@
                                 <li class="font-weight-bold text-dark">
                                     Sertifikat Badan Usaha Konstruksi (SBUJK)
                                 </li>
-                                <table class="table table-borderless table-sm">
+                                <table class="table table-borderless table-sm table-certificate">
                                     <tbody>
                                         <tr>
                                             <th style="width: 120px;">No Certificate</th>
@@ -422,120 +421,134 @@
                         </div>
                         <div class="tab-pane tab-pane-navigation" id="tabSMK3CSMSANDAHLIK3">
                             <h4>SMK3, CSMS, AHLI K3</h4>
-                            <ol type="A">
-                                <li class="font-weight-bold text-dark">
-                                    Sertifikat Manajemen Keselamatan dan Kesehatan Kerja (SMK3)
-                                </li>
-                                <table class="table table-borderless table-sm">
-                                    <tbody>
-                                        <tr>
-                                            <th style="width: 130px;">No Certificate</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>SMK3.2020.MAL.SK.968</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Date</th>
-                                            <td>:</td>
-                                            <td>09 June 2023</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Valid until</th>
-                                            <td>:</td>
-                                            <td>09 June 2026</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Issued by</th>
-                                            <td>:</td>
-                                            <td>Kementerian Ketenagakerjaan</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-8">
+                                    <ol type="A" class="text-2">
+                                        <li class="font-weight-bold text-dark">
+                                            Sertifikat Manajemen Keselamatan dan Kesehatan Kerja (SMK3)
+                                        </li>
+                                        <table class="table table-borderless table-sm table-certificate">
+                                            <tbody>
+                                                <tr>
+                                                    <th style="width: 130px;">No Certificate</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>SMK3.2020.MAL.SK.968</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    <td>:</td>
+                                                    <td>09 June 2023</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Valid until</th>
+                                                    <td>:</td>
+                                                    <td>09 June 2026</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Issued by</th>
+                                                    <td>:</td>
+                                                    <td>Kementerian Ketenagakerjaan</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
-                                <li class="font-weight-bold text-dark">SERTIFIKAT CONTRACTOR SAFETY MANAGEMENT SYSTEM
-                                    (CSMS)</li>
-                                <table class="table table-borderless table-sm">
-                                    <tbody>
-                                        <tr>
-                                            <th style="width: 130px;">No Certificate</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>001402/DIST/CSMS/IX/2022</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Date</th>
-                                            <td>:</td>
-                                            <td>23 September 2022</td>
-                                        </tr>
-                                        <tr>
-                                            <th>CSMS Criteria</th>
-                                            <td>:</td>
-                                            <td>Sangat Tinggi</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Valid until</th>
-                                            <td>:</td>
-                                            <td>24 September 2025</td>
-                                        </tr>
-                                        <tr>
-                                            <th>Issued by</th>
-                                            <td>:</td>
-                                            <td>PT PLN (Persero) UP3 Serpong</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                        <li class="font-weight-bold text-dark">SERTIFIKAT CONTRACTOR SAFETY MANAGEMENT
+                                            SYSTEM
+                                            (CSMS)</li>
+                                        <table class="table table-borderless table-sm table-certificate">
+                                            <tbody>
+                                                <tr>
+                                                    <th style="width: 130px;">No Certificate</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>001402/DIST/CSMS/IX/2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    <td>:</td>
+                                                    <td>23 September 2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>CSMS Criteria</th>
+                                                    <td>:</td>
+                                                    <td>Sangat Tinggi</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Valid until</th>
+                                                    <td>:</td>
+                                                    <td>24 September 2025</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Issued by</th>
+                                                    <td>:</td>
+                                                    <td>PT PLN (Persero) UP3 Serpong</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
-                                <li class="font-weight-bold text-dark">AHLI K3 UMUM</li>
-                                <table class="table table-borderless table-sm">
-                                    <tbody>
-                                        <tr>
-                                            <th style="width: 120px;">No Certificate</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>0053050923/Q-AK3U/36/IX/2023</td>
-                                        </tr>
-                                        <tr>
-                                            <th style="width: 120px;">Date</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>5 September 2023</td>
-                                        </tr>
-                                        <tr>
-                                            <th style="width: 120px;">Atas Nama</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>Ansar</td>
-                                        </tr>
-                                        <tr>
-                                            <th style="width: 120px;">Valid until</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>5 September 2026</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                        <li class="font-weight-bold text-dark">AHLI K3 UMUM</li>
+                                        <table class="table table-borderless table-sm table-certificate">
+                                            <tbody>
+                                                <tr>
+                                                    <th style="width: 120px;">No Certificate</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>0053050923/Q-AK3U/36/IX/2023</td>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 120px;">Date</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>5 September 2023</td>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 120px;">Atas Nama</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>Ansar</td>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 120px;">Valid until</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>5 September 2026</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
-                                <li class="font-weight-bold text-dark">AHLI K3 LISTRIK</li>
-                                <table class="table table-borderless table-sm">
-                                    <tbody>
-                                        <tr>
-                                            <th style="width: 120px;">No Certificate</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>5/1116/AS.02.04/III/2020</td>
-                                        </tr>
-                                        <tr>
-                                            <th style="width: 120px;">Date</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>13 March 2020</td>
-                                        </tr>
-                                        <tr>
-                                            <th style="width: 120px;">Atas Nama</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>Supratman</td>
-                                        </tr>
-                                        <tr>
-                                            <th style="width: 120px;">Valid until</th>
-                                            <td style="width: 10px;">:</td>
-                                            <td>21 March 2026</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                        <li class="font-weight-bold text-dark">AHLI K3 LISTRIK</li>
+                                        <table class="table table-borderless table-sm table-certificate">
+                                            <tbody>
+                                                <tr>
+                                                    <th style="width: 120px;">No Certificate</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>5/1116/AS.02.04/III/2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 120px;">Date</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>13 March 2020</td>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 120px;">Atas Nama</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>Supratman</td>
+                                                </tr>
+                                                <tr>
+                                                    <th style="width: 120px;">Valid until</th>
+                                                    <td style="width: 10px;">:</td>
+                                                    <td>21 March 2026</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
-                            </ol>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-12 col-md-4 p-0">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="{{ asset('img/PT Sinergi Rodika Field Team.jpg') }}"
+                                            class="img-fluid border-radius-0" alt="PT Sinergi Rodika Field Team">
+                                    </div>
+                                    <h4 class="text-2 font-weight-semi-bold mb-0 text-center">
+                                        PT Sinergi Rodika Field Team
+                                    </h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

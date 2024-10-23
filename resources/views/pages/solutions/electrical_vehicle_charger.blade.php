@@ -27,6 +27,8 @@
                                     style="width: auto; max-height: 280px;">
                                 <span class="thumb-info-title">
                                     <span class="thumb-info-inner">Integrated EV Charger</span>
+                                    <a href="{{ route('products.electrical-vehicle-charger.ultra-fast-dc-charger') }}"
+                                        class="thumb-info-type text-white">More Product</a>
                                 </span>
                             </span>
                         </span>
@@ -38,6 +40,8 @@
                                     style="width: auto; max-height: 280px;">
                                 <span class="thumb-info-title">
                                     <span class="thumb-info-inner">Ultra Fast EV Charger up to 320kW</span>
+                                    <a href="{{ route('products.electrical-vehicle-charger.ultra-fast-dc-charger') }}"
+                                        class="thumb-info-type text-white">More Product</a>
                                 </span>
                             </span>
                         </span>
@@ -49,6 +53,8 @@
                                     style="width: auto; max-height: 280px;">
                                 <span class="thumb-info-title">
                                     <span class="thumb-info-inner">Home Wallbox Charger SWIFT 2.0 AC 7/11/22 kW</span>
+                                    <a href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}"
+                                        class="thumb-info-type text-white">More Product</a>
                                 </span>
                             </span>
                         </span>
@@ -60,6 +66,8 @@
                                     style="width: auto; max-height: 280px;">
                                 <span class="thumb-info-title">
                                     <span class="thumb-info-inner">Small Commercial HUB DC 20/30/40 kW</span>
+                                    <a href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}"
+                                        class="thumb-info-type text-white">More Product</a>
                                 </span>
                             </span>
                         </span>
@@ -74,6 +82,8 @@
                                     <span class="thumb-info-inner">
                                         Ultra Fast Charger AMPAX 60/120/160/180/240/ 320 kw
                                     </span>
+                                    <a href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}"
+                                        class="thumb-info-type text-white">More Product</a>
                                 </span>
                             </span>
                         </span>
