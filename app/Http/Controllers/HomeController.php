@@ -33,6 +33,12 @@ class HomeController extends Controller
         return view('pages.solutions.energy_and_environment_management');
     }
 
+
+    public function products_electrical()
+    {
+        return view('pages.products.electrical.list');
+    }
+
     public function products_electrical_relay_protection()
     {
         return view('pages.products.electrical.relay_protection');

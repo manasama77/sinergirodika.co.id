@@ -10,6 +10,10 @@
         #relay-protection {
             scroll-margin-top: 85px;
         }
+
+        .text-1 {
+            line-height: 1rem;
+        }
     </style>
 @endsection
 
@@ -21,12 +25,12 @@
             </div>
             <div class="col-lg-9">
 
-                <h2 class="font-weight-extra-normal text-7 mb-3">
-                    <strong class="font-weight-extra-bold">ELECTRICAL</strong>
+                <h2 class="font-weight-extra-bold text-5 mb-0 p-0" style="line-height: 1rem;">
+                    ELECTRICAL
                 </h2>
 
-                <div id="relay-protection" class="my-3">
-                    <h3 class="font-weight-bold text-4 mb-2">PROTECTION RELAYS</h3>
+                <div id="relay-protection" class="mb-0">
+                    <h3 class="font-weight-bold text-3 mb-0">PROTECTION RELAYS</h3>
 
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
@@ -40,8 +44,8 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-8">
-                            <h4 class="font-weight-bold text-3 mb-0">MICOM P123, 127 FEEDER MANAGEMENT RELAY</h4>
-                            <p class="mb-3 text-2">
+                            <h4 class="font-weight-bold text-2 mb-0">MICOM P123, 127 FEEDER MANAGEMENT RELAY</h4>
+                            <p class="mb-1 text-1">
                                 3Ph Over current (50/51P), Ground fault (50/51N) Phase & Ground Fault directional 67(P), 67N
                                 Restricted earth fault (64)<br />
                                 Negative sequence overcurrent (46)<br />
@@ -59,9 +63,9 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-8">
-                            <h4 class="font-weight-bold text-3 mb-0">MICOM P142 ,P143FEEDER MANAGEMENT RELAY IEC61830 SAS
+                            <h4 class="font-weight-bold text-2 mb-0">MICOM P142 ,P143FEEDER MANAGEMENT RELAY IEC61830 SAS
                             </h4>
-                            <p class="mb-4">
+                            <p class="mb-1 text-1">
                                 3Ph Over current (50/51P), Ground fault (50/51N)<br />
                                 Phase & Ground Fault directional 67(P), 67N Restricted earth fault (64)<br />
                                 Negative sequence over current (46)<br />
@@ -78,8 +82,8 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-8">
-                            <h4 class="font-weight-bold text-3 mb-0">MICOM P543 LINE CURRENT DIFFERENTIAL RELAY</h4>
-                            <p class="mb-4">
+                            <h4 class="font-weight-bold text-2 mb-0">MICOM P543 LINE CURRENT DIFFERENTIAL RELAY</h4>
+                            <p class="mb-1 text-1">
                                 3ph Overcurrent/ Groundfault 50N/51N, Directional earth fault<br />
                                 Undervoltage ANSI Code: 27, Overvoltage ANSI Code: 59<br />
                                 Negative/unbalanced sequence ANSI code: 46<br />
@@ -99,8 +103,8 @@
                             </div>
                         </div>
                         <div class="col-sm-12 col-md-8">
-                            <h4 class="font-weight-bold text-3 mb-0">EASERGY P3, P5</h4>
-                            <p class="mb-4">
+                            <h4 class="font-weight-bold text-2 mb-0">EASERGY P3, P5</h4>
+                            <p class="mb-1 text-1">
                                 Built-in arc flash protection<br />
                                 Advanced cybersecurity compliant to IEC 62443<br />
                                 Intuitive withdrawable design with backup memory<br />

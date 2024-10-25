@@ -67,9 +67,15 @@
                                                 Products
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li>
+                                                {{-- <li>
                                                     <a class="dropdown-item {{ in_array($currentRoute, ['products.electrical.relay-protection', 'products.electrical.generator-ats-amf', 'products.electrical.energy-metering', 'products.electrical.scada-system', 'products.electrical.dc-power-supply', 'products.electrical.transformer-oil-purifier', 'products.electrical.distribution-transformer-monitoring', 'products.electrical.temperature-monitoring-ews']) ? 'active' : '' }}"
                                                         href="{{ route('products.electrical.relay-protection') }}">
+                                                        Electrical
+                                                    </a>
+                                                </li> --}}
+                                                <li>
+                                                    <a class="dropdown-item {{ in_array($currentRoute, ['products.electrical']) ? 'active' : '' }}"
+                                                        href="{{ route('products.electrical') }}">
                                                         Electrical
                                                     </a>
                                                 </li>
