@@ -39,6 +39,11 @@ class HomeController extends Controller
         return view('pages.products.electrical.list');
     }
 
+    public function products_electrical_micom_p123_127_feeder_management_relay()
+    {
+        return view('pages.products.electrical.micom-p123-127-feeder-management-relay');
+    }
+
     public function products_electrical_relay_protection()
     {
         return view('pages.products.electrical.relay_protection');

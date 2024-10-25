@@ -82,9 +82,9 @@
                                     <span class="thumb-info-type">Relay Protection</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -102,7 +102,7 @@
                                 <span class="owl-carousel owl-theme dots-inside m-0"
                                     data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
                                     <span>
-                                        <img src="{{ asset('img/products/MICOM-P142.jpg') }}"
+                                        <img src="{{ asset('img/products/MICOM-P142.png') }}"
                                             class="img-fluid border-radius-0" alt="">
                                     </span>
                                 </span>
@@ -115,9 +115,9 @@
                                     <span class="thumb-info-type">Relay Protection</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -135,7 +135,7 @@
                                 <span class="owl-carousel owl-theme dots-inside m-0"
                                     data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
                                     <span>
-                                        <img src="{{ asset('img/products/MICOM-P543.jpg') }}"
+                                        <img src="{{ asset('img/products/MICOM-P543.png') }}"
                                             class="img-fluid border-radius-0" alt="">
                                     </span>
                                 </span>
@@ -148,9 +148,9 @@
                                     <span class="thumb-info-type">Relay Protection</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -168,11 +168,11 @@
                                 <span class="owl-carousel owl-theme dots-inside m-0"
                                     data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
                                     <span>
-                                        <img src="{{ asset('img/products/EASERGY-P3.jpg') }}"
+                                        <img src="{{ asset('img/products/EASERGY-P3.png') }}"
                                             class="img-fluid border-radius-0" alt="">
                                     </span>
                                     <span>
-                                        <img src="{{ asset('img/products/EASERGY-P5.jpg') }}"
+                                        <img src="{{ asset('img/products/EASERGY-P5.png') }}"
                                             class="img-fluid border-radius-0" alt="">
                                     </span>
                                 </span>
@@ -185,9 +185,9 @@
                                     <span class="thumb-info-type">Relay Protection</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -209,7 +209,7 @@
                                             class="img-fluid border-radius-0" alt="">
                                     </span>
                                     <span>
-                                        <img src="{{ asset('img/products/generator-perkins.jpg') }}"
+                                        <img src="{{ asset('img/products/generator-perkins.png') }}"
                                             class="img-fluid border-radius-0" alt="">
                                     </span>
                                 </span>
@@ -222,9 +222,9 @@
                                     <span class="thumb-info-type">Generator ATS AMF and UPS</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -242,7 +242,7 @@
                                 <span class="owl-carousel owl-theme dots-inside m-0"
                                     data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
                                     <span>
-                                        <img src="{{ asset('img/products/UPS.jpg') }}" class="img-fluid border-radius-0"
+                                        <img src="{{ asset('img/products/UPS.png') }}" class="img-fluid border-radius-0"
                                             alt="">
                                     </span>
                                 </span>
@@ -255,9 +255,9 @@
                                     <span class="thumb-info-type">Generator ATS AMF and UPS</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -275,7 +275,7 @@
                                 <span class="owl-carousel owl-theme dots-inside m-0"
                                     data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
                                     <span>
-                                        <img src="{{ asset('img/products/ATS.jpg') }}" class="img-fluid border-radius-0"
+                                        <img src="{{ asset('img/products/ATS.png') }}" class="img-fluid border-radius-0"
                                             alt="">
                                     </span>
                                     <span>
@@ -292,9 +292,9 @@
                                     <span class="thumb-info-type">Generator ATS AMF and UPS</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -327,9 +327,9 @@
                                     <span class="thumb-info-type">Energy Metering</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>
@@ -360,9 +360,9 @@
                                     <span class="thumb-info-type">Energy Metering</span>
                                 </span>
                                 <span class="thumb-info-action">
-                                    <a href="#" class="lightbox-portfolio">
-                                        <span class="thumb-info-action-icon thumb-info-action-icon-light">
-                                            <i class="fas fa-search text-dark"></i>
+                                    <a href="{{ route('products.electrical.micom-p123-127-feeder-management-relay') }}">
+                                        <span class="thumb-info-action-icon thumb-info-action-icon-primary">
+                                            <i class="fas fa-link"></i>
                                         </span>
                                     </a>
                                 </span>

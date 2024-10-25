@@ -11,6 +11,8 @@ Route::get('/solutions/electrical-vehicle-charger', [HomeController::class, 'sol
 Route::get('/solutions/energy-and-environment-management', [HomeController::class, 'solutions_energy_and_environment_management'])->name('solutions.energy-and-environment-management');
 
 Route::get('/products/electrical', [HomeController::class, 'products_electrical'])->name('products.electrical');
+Route::get('/products/electrical/micom-p123-127-feeder-management-relay', [HomeController::class, 'products_electrical_micom_p123_127_feeder_management_relay'])->name('products.electrical.micom-p123-127-feeder-management-relay');
+
 Route::get('/products/electrical/relay-protection', [HomeController::class, 'products_electrical_relay_protection'])->name('products.electrical.relay-protection');
 Route::get('/products/electrical/generator-ats-amf', [HomeController::class, 'products_electrical_generator_ats_amf'])->name('products.electrical.generator-ats-amf');
 Route::get('/products/electrical/energy-metering', [HomeController::class, 'products_electrical_energy_metering'])->name('products.electrical.energy-metering');
