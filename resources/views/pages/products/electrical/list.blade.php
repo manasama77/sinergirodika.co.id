@@ -29,27 +29,27 @@
                     Energy Metering
                 </a>
             </li>
-            <li class="nav-item" data-option-value=".medias">
+            <li class="nav-item" data-option-value=".scada-system">
                 <a class="nav-link text-2" href="#">
                     Scada System
                 </a>
             </li>
-            <li class="nav-item" data-option-value=".medias">
+            <li class="nav-item" data-option-value=".dc-power-supply">
                 <a class="nav-link text-2" href="#">
                     DC Power Supply
                 </a>
             </li>
-            <li class="nav-item" data-option-value=".medias">
+            <li class="nav-item" data-option-value=".transformer-oil-purifier">
                 <a class="nav-link text-2" href="#">
                     Transformer Oil Purifier
                 </a>
             </li>
-            <li class="nav-item" data-option-value=".medias">
+            <li class="nav-item" data-option-value=".distribution-transformer-monitoring">
                 <a class="nav-link text-2" href="#">
                     Distribution Transformer monitoring
                 </a>
             </li>
-            <li class="nav-item" data-option-value=".medias">
+            <li class="nav-item" data-option-value=".temperature-monitoring-ews">
                 <a class="nav-link text-2" href="#">
                     Temperature Monitoring/ EWS
                 </a>
@@ -66,13 +66,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/MICOM-P123.png') }}"
-                                            class="img-fluid border-radius-0" alt="MICOM P123">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/MICOM-P123.png') }}" class="img-fluid border-radius-0"
+                                    alt="MICOM P123">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -99,13 +94,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/MICOM-P142.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/MICOM-P142.png') }}" class="img-fluid border-radius-0"
+                                    alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -132,13 +122,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/MICOM-P543.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/MICOM-P543.png') }}" class="img-fluid border-radius-0"
+                                    alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -165,17 +150,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/EASERGY-P3.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                    <span>
-                                        <img src="{{ asset('img/products/EASERGY-P5.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/EASERGY-P3.png') }}" class="img-fluid border-radius-0"
+                                    alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -202,17 +178,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/generator-cummins.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                    <span>
-                                        <img src="{{ asset('img/products/generator-perkins.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/generator-cummins.png') }}"
+                                    class="img-fluid border-radius-0" alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -239,13 +206,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/UPS.png') }}" class="img-fluid border-radius-0"
-                                            alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/UPS.png') }}" class="img-fluid border-radius-0"
+                                    alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -272,17 +234,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/ATS.png') }}" class="img-fluid border-radius-0"
-                                            alt="">
-                                    </span>
-                                    <span>
-                                        <img src="{{ asset('img/products/AMF.png') }}" class="img-fluid border-radius-0"
-                                            alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/AMF.png') }}" class="img-fluid border-radius-0"
+                                    alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -309,15 +262,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/MK6E CLASS 0.2S.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                        {{-- <img src="{{ asset('img/products/Picture1.png') }}"
-                                            class="img-fluid border-radius-0" alt=""> --}}
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/MK6E CLASS 0.2S.png') }}"
+                                    class="img-fluid border-radius-0" alt="">
 
                                 <span class="thumb-info-title">
                                     <span
@@ -344,13 +290,8 @@
                             class="thumb-info thumb-info-lighten thumb-info-no-borders thumb-info-bottom-info thumb-info-centered-icons border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
 
-                                <span class="owl-carousel owl-theme dots-inside m-0"
-                                    data-plugin-options="{'items': 1, 'margin': 20, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-                                    <span>
-                                        <img src="{{ asset('img/products/MK-6N Class 0.5S.png') }}"
-                                            class="img-fluid border-radius-0" alt="">
-                                    </span>
-                                </span>
+                                <img src="{{ asset('img/products/MK-6N Class 0.5S.png') }}"
+                                    class="img-fluid border-radius-0" alt="">
 
                                 <span class="thumb-info-title">
                                     <span

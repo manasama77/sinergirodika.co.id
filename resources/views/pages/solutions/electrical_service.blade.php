@@ -24,8 +24,22 @@
                 <h2 class="font-weight-extra-normal text-7 mb-3">
                     <strong class="font-weight-extra-bold">ELECTRICAL</strong> SERVICE
                 </h2>
-                <img class="img-fluid col-12 col-md-6 offset-md-3 mb-3" src="{{ asset('img/Electrical-Service-Scheme.png') }}"
-                    alt="Electrical Service Scheme">
+
+                <div class="electrical-service-scheme-container">
+                    <a href="{{ route('products.electrical') }}#relay-protection" target="_blank" class="btn-relay">&nbsp;</a>
+                    <a href="{{ route('products.electrical') }}#scada-system" target="_blank" class="btn-scada">&nbsp;</a>
+                    <a href="{{ route('products.electrical') }}#energy-metering" target="_blank"
+                        class="btn-energy">&nbsp;</a>
+                    <a href="{{ route('products.electrical') }}#dc-power-supply" target="_blank" class="btn-dc">&nbsp;</a>
+                    <a href="{{ route('products.electrical') }}#generator-ats-amf-and-ups" target="_blank"
+                        class="btn-genset">&nbsp;</a>
+                    <a href="{{ route('products.electrical') }}#transformer-oil-purifier" target="_blank"
+                        class="btn-transformer">&nbsp;</a>
+                    <a href="{{ route('products.test-and-measurement-tools') }}" target="_blank" class="btn-test">&nbsp;</a>
+
+                    <img class="img-fluid" src="{{ asset('img/Solution-Electric-Scheme.png') }}"
+                        alt="Solution-Electric-Scheme">
+                </div>
 
                 <div id="relay-protection" class="my-3">
                     <h3 class="font-weight-bold text-4 mb-2">Relay Protection</h3>
