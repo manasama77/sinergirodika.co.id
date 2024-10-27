@@ -52,7 +52,8 @@
                                 Undercurrent (37), Broken conductor (46BC)<br />
                                 Circuit breaker failure (50BF), Trip Circuit Spv (TCS)<br />
                                 Over/Under voltage (27/59)<br />
-                                Residual over voltage (59N), Autoreclose (79) Modbus protocol/ DNP3</p>
+                                Residual over voltage (59N), Autoreclose (79) Modbus protocol/ DNP3
+                            </p>
                         </div>
 
                         <div class="col-sm-12 col-md-4">
@@ -71,7 +72,8 @@
                                 Negative sequence over current (46)<br />
                                 Undercurrent (37), Broken conductor (46BC)<br />
                                 Circuit breaker failure (50BF), (TCS) Over/Under voltage (27/59),Residual overvoltage (59N),
-                                Auto reclose (79), IEC 61860 protocol SAS/ DNP3</p>
+                                Auto reclose (79), IEC 61860 protocol SAS/ DNP3
+                            </p>
                         </div>
 
                         <div class="col-sm-12 col-md-4">
@@ -92,7 +94,8 @@
                                 Underfrequency ANSI Code: 81L<br />
                                 Over frequency Number of inputs16 discrete<br />
                                 5 CT current inputs...X/5 A and X/1 A, 4 voltages Number of outputs14 discrete<br />
-                                Communication port protocols DNP3, IEC 61850, Ethernet, Modbus RTU, Event recording</p>
+                                Communication port protocols DNP3, IEC 61850, Ethernet, Modbus RTU, Event recording
+                            </p>
                         </div>
 
                         <div class="col-sm-12 col-md-4">
@@ -110,7 +113,8 @@
                                 Intuitive withdrawable design with backup memory<br />
                                 Plug and play hardware expansion<br />
                                 EF, Dir OCR, Dir EF, UFR, OVR, 32 Reverse Power 10DI + 8DO + Back Up Memory Protocol IEC
-                                61850 for SAS and DNP 3 serial for DCC Simultaneous</p>
+                                61850 for SAS and DNP 3 serial for DCC Simultaneous
+                            </p>
                         </div>
                     </div>
 

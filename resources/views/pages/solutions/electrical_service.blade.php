@@ -25,20 +25,22 @@
                     <strong class="font-weight-extra-bold">ELECTRICAL</strong> SERVICE
                 </h2>
 
-                <div class="electrical-service-scheme-container">
-                    <a href="{{ route('products.electrical') }}#relay-protection" target="_blank" class="btn-relay">&nbsp;</a>
-                    <a href="{{ route('products.electrical') }}#scada-system" target="_blank" class="btn-scada">&nbsp;</a>
-                    <a href="{{ route('products.electrical') }}#energy-metering" target="_blank"
-                        class="btn-energy">&nbsp;</a>
-                    <a href="{{ route('products.electrical') }}#dc-power-supply" target="_blank" class="btn-dc">&nbsp;</a>
-                    <a href="{{ route('products.electrical') }}#generator-ats-amf-and-ups" target="_blank"
-                        class="btn-genset">&nbsp;</a>
-                    <a href="{{ route('products.electrical') }}#transformer-oil-purifier" target="_blank"
-                        class="btn-transformer">&nbsp;</a>
-                    <a href="{{ route('products.test-and-measurement-tools') }}" target="_blank" class="btn-test">&nbsp;</a>
+                <div class="row">
+                    <div class="col-sm-12 col-md-10">
+                        <div class="electrical-service-scheme-container">
+                            <a href="#relay-protection" class="btn-relay">&nbsp;</a>
+                            <a href="#scada-system" class="btn-scada">&nbsp;</a>
+                            <a href="#energy-metering" class="btn-energy">&nbsp;</a>
+                            <a href="#dc-power-supply" class="btn-dc">&nbsp;</a>
+                            <a href="#generator-ats-amf-and-ups" class="btn-genset">&nbsp;</a>
+                            <a href="#transformer-oil-purifier" class="btn-transformer">&nbsp;</a>
+                            <a href="{{ route('products.test-and-measurement-tools') }}" target="_blank"
+                                class="btn-test">&nbsp;</a>
 
-                    <img class="img-fluid" src="{{ asset('img/Solution-Electric-Scheme.png') }}"
-                        alt="Solution-Electric-Scheme">
+                            <img class="img-fluid" src="{{ asset('img/Solution-Electric-Scheme.png') }}"
+                                alt="Solution-Electric-Scheme">
+                        </div>
+                    </div>
                 </div>
 
                 <div id="relay-protection" class="my-3">
