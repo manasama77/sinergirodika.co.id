@@ -73,7 +73,7 @@
                                 proven to complete projects within the designated time frame and budgets with speed, safety,
                                 cost effectiveness, and professional technicians</p>
                         </div>
-                        <div class="tab-pane tab-pane-navigation" id="tabVisionMission">
+                        <div class="tab-pane tab-pane-navigation" id="tabVisionMission" style="min-height: 43.5vh;">
                             <h4>VISION</h4>
                             <p>“To become a professional, competitive and competent company in the field of electrical and
                                 mechanical supply and services with the best and accountable services”.</p>
