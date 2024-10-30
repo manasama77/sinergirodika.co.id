@@ -22,6 +22,7 @@ Route::get('/products/electrical/transformer-oil-purifier', [HomeController::cla
 Route::get('/products/electrical/distribution-transformer-monitoring', [HomeController::class, 'products_electrical_distribution_transformer_monitoring'])->name('products.electrical.distribution-transformer-monitoring');
 Route::get('/products/electrical/temperature-monitoring-ews', [HomeController::class, 'products_electrical_temperature_monitoring_ews'])->name('products.electrical.temperature-monitoring-ews');
 
+Route::get('/products/electrical-vehicle-charger', [HomeController::class, 'products_electrical_vehicle_charger'])->name('products.electrical-vehicle-charger');
 Route::get('/products/electrical-vehicle-charger/ac-and-small-dc-charger', [HomeController::class, 'products_electrical_vehicle_charger_ac_and_small_dc_charger'])->name('products.electrical-vehicle-charger.ac-and-small-dc-charger');
 Route::get('/products/electrical-vehicle-charger/ultra-fast-dc-charger', [HomeController::class, 'products_electrical_vehicle_charger_ultra_fast_dc_charger'])->name('products.electrical-vehicle-charger.ultra-fast-dc-charger');
 

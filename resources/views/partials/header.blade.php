@@ -81,7 +81,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item {{ in_array($currentRoute, ['products.electrical-vehicle-charger.ac-and-small-dc-charger', 'products.electrical-vehicle-charger.ultra-fast-dc-charger']) ? 'active' : '' }}"
-                                                        href="{{ route('products.electrical-vehicle-charger.ac-and-small-dc-charger') }}">
+                                                        href="{{ route('products.electrical-vehicle-charger') }}">
                                                         Electric Vehicle Charger (SPKLU)
                                                     </a>
                                                 </li>
