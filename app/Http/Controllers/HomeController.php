@@ -100,6 +100,12 @@ class HomeController extends Controller
         return view('pages.products.electrical_vehicle_charger.ultra_fast_dc_charger');
     }
 
+
+    public function products_energy_and_environment_management()
+    {
+        return view('pages.products.energy_and_environment_management.list');
+    }
+
     public function products_energy_and_environment_management_energy_meters()
     {
         return view('pages.products.energy_and_environment_management.energy_meters');

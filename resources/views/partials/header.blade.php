@@ -87,7 +87,7 @@
                                                 </li>
                                                 <li>
                                                     <a class="dropdown-item {{ in_array($currentRoute, ['products.energy-and-environment-management.energy-meters', 'products.energy-and-environment-management.gas-meters', 'products.energy-and-environment-management.water-meters', 'products.energy-and-environment-management.cyble-nonmag-sensor', 'products.energy-and-environment-management.lora-rtu', 'products.energy-and-environment-management.cctv-and-electronic-security']) ? 'active' : '' }}"
-                                                        href="{{ route('products.energy-and-environment-management.energy-meters') }}">
+                                                        href="{{ route('products.energy-and-environment-management') }}">
                                                         Energy & Environment Management
                                                     </a>
                                                 </li>

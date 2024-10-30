@@ -922,54 +922,6 @@
                     <h2 class="font-weight-extra-normal text-5 mb-0">
                         <strong class="font-weight-extra-bold">Distribution </strong>Transformer Monitoring
                     </h2>
-                </div>
-
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Inhand Logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN SCHEME.png') }}"
-                                        class="img-card">
-                                </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    Distribution Transformer Monitoring
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
-                                <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN INSTALATION PHOTO.png') }}"
-                                    class="img-fluid" />
-                                <p class="text-1 mb-0">
-                                    Meters measure Energy on Distribution transformer incoming and LVSB feeders<br />
-                                    Energy and electrical parameters are monitored online via Cellular gateway to IoT Energy
-                                    Management system with Integration of Billing Management and Online Losses Monitoring
-                                    (OLM)<br />
-                                    Billing and Energy-Losses reports generated can be accessed by clients through internet
-                                    connection everywhere
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row portfolio-list sort-destination lightbox" data-sort-id="portfolio"
-                data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
-
-                <div class="col-sm-12 isotope-item distribution-transformer-monitoring">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
-                        <strong class="font-weight-extra-bold">Distribution </strong>Transformer Monitoring
-                    </h2>
                     <div class="row" style="margin-bottom: 20px;">
                         <div class="col-sm-12 col-md-3 text-start mb-2">
                             <div class="img-thumbnail d-block">
