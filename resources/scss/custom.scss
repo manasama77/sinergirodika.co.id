@@ -217,6 +217,61 @@ ul.nav-list li > a.active {
     }
 }
 
+//////////
+
+.portfolio-item > .card {
+    padding: 0.3rem 0.2rem;
+    border: 1px solid #dadada;
+}
+
+@media (max-width: 576px) {
+    .portfolio-list .portfolio-item {
+        margin-bottom: 10px !important;
+    }
+
+    .portfolio-item > .card > .card-body {
+        min-height: auto !important;
+    }
+}
+
+.portfolio-item > .card > .card-body {
+    /* min-height: 255px; */
+    min-height: auto;
+}
+
+img.img-card {
+    width: auto !important;
+    max-height: 100px !important;
+}
+
+.portfolio-item > .card > .card-body h5 {
+    font-size: 11px !important;
+    line-height: 0.8rem;
+    text-transform: none;
+}
+
+.portfolio-item > .card > .card-body p.text-1 {
+    font-size: 9px !important;
+    line-height: 0.8rem;
+    color: #212529 !important;
+    font-weight: 400 !important;
+}
+
+.img-card-logo-wrapper {
+    position: relative;
+}
+
+.img-card-logo-item {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.img-card-logo {
+    height: 100%;
+    width: 35px;
+}
+
 .img-logo {
     width: auto;
     height: 25px;

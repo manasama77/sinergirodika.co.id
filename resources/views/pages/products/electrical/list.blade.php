@@ -2,58 +2,7 @@
 
 @section('css')
     <style>
-        .portfolio-item>.card {
-            padding: 0.3rem 0.2rem;
-            border: 1px solid #dadada;
-        }
 
-        @media (max-width: 576px) {
-            .portfolio-list .portfolio-item {
-                margin-bottom: 10px !important;
-            }
-
-            .portfolio-item>.card>.card-body {
-                min-height: auto !important;
-            }
-        }
-
-        .portfolio-item>.card>.card-body {
-            /* min-height: 255px; */
-            min-height: auto;
-        }
-
-        img.img-card {
-            width: auto !important;
-            max-height: 100px !important;
-        }
-
-        .portfolio-item>.card>.card-body h5 {
-            font-size: 11px !important;
-            line-height: .8rem;
-            text-transform: none;
-        }
-
-        .portfolio-item>.card>.card-body p.text-1 {
-            font-size: 9px !important;
-            line-height: .8rem;
-            color: #212529 !important;
-            font-weight: 400 !important;
-        }
-
-        .img-card-logo-wrapper {
-            position: relative;
-        }
-
-        .img-card-logo-item {
-            position: absolute;
-            top: 0px;
-            right: 0px;
-        }
-
-        .img-card-logo {
-            height: 100%;
-            width: 35px;
-        }
     </style>
 @endsection
 
@@ -108,7 +57,7 @@
             </li>
         </ul>
 
-        <div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2">
+        <div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2 text-center">
 
             <div class="row portfolio-list sort-destination lightbox" data-sort-id="portfolio"
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
@@ -817,14 +766,71 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-3 isotope-item transformer-oil-purifier">
+                <div class="col-sm-12 col-md-8 offset-md-2 isotope-item transformer-oil-purifier">
+                    <div class="d-flex justify-content-center gap-4">
+                        <div class="portfolio-item w-50">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/purifier-machine.jpg') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        PURIFIER MACHINE
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        Transformer Oil Purifier
+                                    </div>
+                                    <p class="text-1 mb-0">
+                                        Mainly used to improve insulation oil by removing trace water, gas, particulate
+                                        matters
+                                        etc. to boost performance and life time of transformers, circuit breakers, mutual
+                                        inductors and cable.<br />
+                                        Capacity : 2000, 4000, 6000 liter/hour,<br />
+                                        Process : Double stage : heating to remove water from oil, gas (de-gas) and remove
+                                        tiny
+                                        particles (purify) eq. acetylene, hydrogen, methane dan other particles. Trailer
+                                        provided mobility.<br />
+                                        Key projects : PLN UPK Kapuas, UP3 Ketapang and UP3B Kalbar, UPK Tambora NTB, UPK
+                                        Maluku
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item w-50">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/portable oil set.png') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        PORTABLE OIL TEST SET<br /><small>MEGGER OTS80PB</small>
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        Transformer Oil Purifier
+                                    </div>
+                                    <p class="text-1 mb-0">
+                                        Test voltages 60 kV / 80 kV<br />
+                                        Lock in precision oil vessel<br />
+                                        lockable gap setting<br />
+                                        Flat electrode gap gauges<br />
+                                        Oil Temperature Measurement<br />
+                                        Easy to clean
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-6 col-lg-3 offset-lg-2 isotope-item transformer-oil-purifier">
                     <div class="portfolio-item">
                         <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Inhand Logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/purifier-machine.jpg') }}" class="img-card">
@@ -833,7 +839,6 @@
                             <div class="card-body p-1">
                                 <h5 class="font-weight-bold text-dark mb-0">
                                     PURIFIER MACHINE
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
                                 </h5>
                                 <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
                                     Transformer Oil Purifier
@@ -856,11 +861,6 @@
                 <div class="col-md-6 col-lg-3 isotope-item transformer-oil-purifier">
                     <div class="portfolio-item">
                         <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Inhand Logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/portable oil set.png') }}" class="img-card">
@@ -884,7 +884,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 

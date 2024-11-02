@@ -2,58 +2,6 @@
 
 @section('css')
     <style>
-        .portfolio-item>.card {
-            padding: 0.3rem 0.2rem;
-            border: 1px solid #dadada;
-        }
-
-        @media (max-width: 576px) {
-            .portfolio-list .portfolio-item {
-                margin-bottom: 10px !important;
-            }
-
-            .portfolio-item>.card>.card-body {
-                min-height: auto !important;
-            }
-        }
-
-        .portfolio-item>.card>.card-body {
-            /* min-height: 255px; */
-            min-height: auto;
-        }
-
-        img.img-card {
-            width: auto !important;
-            max-height: 100px !important;
-        }
-
-        .portfolio-item>.card>.card-body h5 {
-            font-size: 11px !important;
-            line-height: .8rem;
-            text-transform: none;
-        }
-
-        .portfolio-item>.card>.card-body p.text-1 {
-            font-size: 9px !important;
-            line-height: .8rem;
-            color: #212529 !important;
-            font-weight: 400 !important;
-        }
-
-        .img-card-logo-wrapper {
-            position: relative;
-        }
-
-        .img-card-logo-item {
-            position: absolute;
-            top: 0px;
-            right: 1px;
-        }
-
-        .img-card-logo {
-            width: 100%;
-            height: 20px;
-        }
     </style>
 @endsection
 
@@ -98,19 +46,19 @@
             </li>
         </ul>
 
-        <div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2">
+        <div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2 text-center">
 
             <div class="row portfolio-list sort-destination lightbox" data-sort-id="portfolio"
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
                 height="420px;">
 
                 <div class="col-sm-12 isotope-item energy-meters">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Energy </strong>Meters
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item energy-meters">
+                <div class="col-md-6 col-lg-4 offset-lg-2 isotope-item energy-meters">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -149,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item energy-meters">
+                <div class="col-md-6 col-lg-4 isotope-item energy-meters">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -196,12 +144,12 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item gas-meters">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Gas </strong>Meters
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item gas-meters">
+                <div class="col-md-6 col-lg-8 offset-md-2 isotope-item gas-meters">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -257,12 +205,12 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item water-meters">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Water </strong>Meters
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item water-meters">
+                <div class="col-md-6 col-lg-8 offset-lg-2 isotope-item water-meters">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -315,12 +263,12 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item cybel-nomag-sensor">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Cybel </strong>Nomag Sensor
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cybel-nomag-sensor">
+                <div class="col-md-6 col-lg-8 offset-lg-2 isotope-item cybel-nomag-sensor">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -373,12 +321,12 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item lora-communication-device">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Lora </strong>Communication Device
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item lora-communication-device">
+                <div class="col-md-6 col-lg-4 offset-lg-2 isotope-item lora-communication-device">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -421,7 +369,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item lora-communication-device">
+                <div class="col-md-6 col-lg-4 isotope-item lora-communication-device">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -471,12 +419,192 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item cctv-and-electronic-security">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">CCTV </strong>& Electronic Security
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                <div class="col-12 isotope-item cctv-and-electronic-security">
+                    <div class="d-flex justify-content-center gap-4 flex-wrap">
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/IP cam.png') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Indoor IP camera
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/ACCESS CONTROL SCHEME.png') }}"
+                                            class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Access Control
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/BURGLAR ALARM.png') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Burglar Alarm
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/Indoor IP Camera.png') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Indoor IP camera
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/GUARD TOUR PATROL.png') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Guard Tour Patrol
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/CONVEX MIRROR.png') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Convex Mirror
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/NVR.jpg') }}" class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Network Video Recorder
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/TRIPOD AND BARRIER GATE.png') }}"
+                                            class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        Tripod and Barrier Gate
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="card">
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <img src="{{ asset('img/products/XRAY AND METAL DETECTOR.png') }}"
+                                            class="img-card">
+                                    </div>
+                                </div>
+                                <div class="card-body p-1">
+                                    <h5 class="font-weight-bold text-dark mb-0">
+                                        XRAY AND METAL DETECTOR
+                                    </h5>
+                                    <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                        style="font-size: 9px;">
+                                        CCTV & Electronic Security
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -494,9 +622,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -514,9 +642,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -534,9 +662,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -554,9 +682,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -574,9 +702,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -594,9 +722,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -614,9 +742,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -634,9 +762,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
+                {{-- <div class="col-md-6 col-lg-1-5 isotope-item cctv-and-electronic-security">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="d-flex justify-content-center">
@@ -654,7 +782,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 

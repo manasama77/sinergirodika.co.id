@@ -2,58 +2,7 @@
 
 @section('css')
     <style>
-        .portfolio-item>.card {
-            padding: 0.3rem 0.2rem;
-            border: 1px solid #dadada;
-        }
 
-        @media (max-width: 576px) {
-            .portfolio-list .portfolio-item {
-                margin-bottom: 10px !important;
-            }
-
-            .portfolio-item>.card>.card-body {
-                min-height: auto !important;
-            }
-        }
-
-        .portfolio-item>.card>.card-body {
-            /* min-height: 255px; */
-            min-height: auto;
-        }
-
-        img.img-card {
-            width: auto !important;
-            max-height: 100px !important;
-        }
-
-        .portfolio-item>.card>.card-body h5 {
-            font-size: 11px !important;
-            line-height: .8rem;
-            text-transform: none;
-        }
-
-        .portfolio-item>.card>.card-body p.text-1 {
-            font-size: 9px !important;
-            line-height: .8rem;
-            color: #212529 !important;
-            font-weight: 400 !important;
-        }
-
-        .img-card-logo-wrapper {
-            position: relative;
-        }
-
-        .img-card-logo-item {
-            position: absolute;
-            top: 0px;
-            right: 1px;
-        }
-
-        .img-card-logo {
-            width: 100%;
-            height: 20px;
-        }
     </style>
 @endsection
 
@@ -78,7 +27,7 @@
             </li>
         </ul>
 
-        <div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2">
+        <div class="sort-destination-loader sort-destination-loader-showing mt-4 pt-2 text-center">
 
             <div class="row portfolio-list sort-destination lightbox" data-sort-id="portfolio"
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
