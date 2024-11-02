@@ -47,12 +47,22 @@
         .img-card-logo-item {
             position: absolute;
             top: 0px;
-            right: 1px;
+            right: 0px;
         }
 
         .img-card-logo {
-            width: 100%;
-            height: 20px;
+            height: 100%;
+            width: 35px;
+        }
+
+        .img-logo {
+            width: auto;
+            height: 25px;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            white-space: normal !important;
         }
     </style>
 @endsection
@@ -118,17 +128,14 @@
                     <h2 class="font-weight-extra-normal text-5 mb-0">
                         <strong class="font-weight-extra-bold">Relay </strong>Protection
                     </h2>
+                    <div class="text-center">
+                        <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}" class="img-logo">
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-lg-1-5 isotope-item relay-protection">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}"
-                                        class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Micom P123.jpg') }}" class="img-card">
@@ -158,12 +165,6 @@
                 <div class="col-md-6 col-lg-1-5 isotope-item relay-protection">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}"
-                                        class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Micom P127.jpg') }}" class="img-card">
@@ -195,12 +196,6 @@
                 <div class="col-md-6 col-lg-1-5 isotope-item relay-protection">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}"
-                                        class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Micom P142.jpg') }}" class="img-card">
@@ -231,12 +226,6 @@
                 <div class="col-md-6 col-lg-1-5 isotope-item relay-protection">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}"
-                                        class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Micom P543.png') }}" class="img-card">
@@ -272,12 +261,6 @@
                 <div class="col-md-6 col-lg-1-5 isotope-item relay-protection">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}"
-                                        class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Easergy P3P5.jpg') }}" class="img-card">
@@ -316,7 +299,7 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item generator-ats-amf-and-ups">
+                <div class="col-md-6 col-lg-4 isotope-item generator-ats-amf-and-ups">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -355,7 +338,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item generator-ats-amf-and-ups">
+                <div class="col-md-6 col-lg-4 isotope-item generator-ats-amf-and-ups">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -390,7 +373,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item generator-ats-amf-and-ups">
+                <div class="col-md-6 col-lg-4 isotope-item generator-ats-amf-and-ups">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -440,7 +423,7 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item energy-metering">
+                <div class="col-md-6 col-lg-3 isotope-item energy-metering">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -473,7 +456,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item energy-metering">
+                <div class="col-md-6 col-lg-3 isotope-item energy-metering">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -507,7 +490,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item energy-metering">
+                <div class="col-md-6 col-lg-3 isotope-item energy-metering">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -547,7 +530,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item energy-metering">
+                <div class="col-md-6 col-lg-3 isotope-item energy-metering">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -597,7 +580,7 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item scada-system">
+                <div class="col-md-6 col-lg-4 isotope-item scada-system">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -641,7 +624,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item scada-system">
+                <div class="col-md-6 col-lg-4 isotope-item scada-system">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -676,7 +659,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item scada-system">
+                <div class="col-md-6 col-lg-4 isotope-item scada-system">
                     <div class="portfolio-item">
                         <div class="card">
                             <div class="img-card-logo-wrapper">
@@ -719,7 +702,7 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item dc-power-supply">
+                <div class="col-md-6 col-lg-4 isotope-item dc-power-supply">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -761,7 +744,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item dc-power-supply">
+                <div class="col-md-6 col-lg-4 isotope-item dc-power-supply">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -799,7 +782,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item dc-power-supply">
+                <div class="col-md-6 col-lg-4 isotope-item dc-power-supply">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -844,7 +827,7 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item transformer-oil-purifier">
+                <div class="col-md-6 col-lg-3 isotope-item transformer-oil-purifier">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -880,7 +863,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item transformer-oil-purifier">
+                <div class="col-md-6 col-lg-3 isotope-item transformer-oil-purifier">
                     <div class="portfolio-item">
                         <div class="card">
                             {{-- <div class="img-card-logo-wrapper">
@@ -916,7 +899,8 @@
             </div>
 
             <div class="row portfolio-list sort-destination lightbox" data-sort-id="portfolio"
-                data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
+                data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
+                height="420px;">
 
                 <div class="col-sm-12 isotope-item distribution-transformer-monitoring">
                     <h2 class="font-weight-extra-normal text-5 mb-0">
@@ -924,17 +908,19 @@
                     </h2>
                     <div class="row" style="margin-bottom: 20px;">
                         <div class="col-sm-12 col-md-3 text-start mb-2">
-                            <div class="img-thumbnail d-block">
+                            <div class="img-thumbnail d-block text-center">
                                 <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN SCHEME.png') }}"
-                                    class="img-fluid" style="max-height: 245px;">
+                                    class="img-fluid" style="max-height: 200px;">
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 text-start mb-2">
-                            <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN INSTALATION PHOTO.png') }}"
-                                class="img-fluid" style="height:120px;" />
-                            <p class="text-1 mb-2 line-height-1 text-dark font-weight-bold">
-                                INSTALATION PHOTO
-                            </p>
+                        <div class="col-sm-12 col-md-9 text-start mb-2">
+                            <div class="text-center">
+                                <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN INSTALATION PHOTO.png') }}"
+                                    class="img-fluid" style="height:120px;" />
+                                <p class="text-1 mb-2 line-height-1 text-dark font-weight-bold text-center">
+                                    INSTALATION PHOTO
+                                </p>
+                            </div>
                             <p class="text-2 mb-0 line-height-1 text-dark">
                                 Meters measure Energy on Distribution transformer incoming and LVSB feeders<br />
                                 Energy and electrical parameters are monitored online via Cellular gateway to IoT
@@ -950,14 +936,15 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
+                <div class="col-12 isotope-item distribution-transformer-monitoring">
+                    <div class="text-center">
+                        <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-logo">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Acrel-ADW210.png') }}" class="img-card">
@@ -986,14 +973,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
+                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Acrel ADW300.png') }}" class="img-card">
@@ -1020,14 +1002,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
+                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Acrel-ADL400.jpg') }}" class="img-card">
@@ -1053,14 +1030,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
+                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/acrel AWT100.png') }}" class="img-card">
@@ -1087,14 +1059,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
+                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Acrel CT.png') }}" class="img-card">
@@ -1121,14 +1088,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item distribution-transformer-monitoring">
+                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/acrel IoT Energy Management System.jpg') }}"
@@ -1171,7 +1133,7 @@
                                     style="max-height: 245px;">
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 text-start mb-2">
+                        <div class="col-sm-12 col-md-9 text-start mb-2">
                             <p class="text-2 mb-0 line-height-1 text-dark">
                                 Temperature Monitoring on Critical spots in MV panels of Substation, Sensors installed in
                                 CB fingers, busbar, cable termination, cabinets wall both magnetic and strapped attachment
@@ -1183,113 +1145,79 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item temperature-monitoring-ews">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/magnetic-strapped.png') }}" class="img-card">
-                                </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    Magnetic and Strapped Battery Power
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Temperature Monitoring / EWS
-                                </div>
-
-                                {{-- <p class="text-1 mb-0">
-                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
-                                    3X220/380 V , 3X 5A, 3X 100A<br />
-                                    Measure Up to 4 circuit 3 phase<br />
-                                    Measure all electric parameters<br />
-                                    Split core open loop CTs<br />
-                                    External function module<br />
-                                    RS485 Modbus RTU Lora/4G routers
-                                </p> --}}
-                            </div>
-                        </div>
+                <div class="col-12 isotope-item distribution-transformer-monitoring">
+                    <div class="text-center">
+                        <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-logo">
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item temperature-monitoring-ews">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
+                <div class="col-sm-8 offset-md-2 isotope-item temperature-monitoring-ews">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="portfolio-item">
+                                <div class="card">
+                                    <div class="d-flex justify-content-center">
+                                        <div>
+                                            <img src="{{ asset('img/products/magnetic-strapped.png') }}"
+                                                class="img-card">
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-1">
+                                        <h5 class="font-weight-bold text-dark mb-0">
+                                            Magnetic and Strapped Battery Power
+                                        </h5>
+                                        <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                            style="font-size: 9px;">
+                                            Temperature Monitoring / EWS
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/ct-induction.png') }}" class="img-card">
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="portfolio-item">
+                                <div class="card">
+                                    <div class="d-flex justify-content-center">
+                                        <div>
+                                            <img src="{{ asset('img/products/ct-induction.png') }}" class="img-card">
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-1">
+                                        <h5 class="font-weight-bold text-dark mb-0">
+                                            CT Induction (No Battery)
+                                        </h5>
+                                        <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                            style="font-size: 9px;">
+                                            Temperature Monitoring / EWS
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    CT Induction (No Battery)
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Temperature Monitoring / EWS
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="portfolio-item">
+                                <div class="card">
+                                    <div class="d-flex justify-content-center">
+                                        <div>
+                                            <img src="{{ asset('img/products/room temperature.png') }}" class="img-card">
+                                        </div>
+                                    </div>
+                                    <div class="card-body p-1">
+                                        <h5 class="font-weight-bold text-dark mb-0">
+                                            Room Temperature & Humidity
+                                        </h5>
+                                        <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                            style="font-size: 9px;">
+                                            Temperature Monitoring / EWS
+                                        </div>
+                                    </div>
                                 </div>
-
-                                {{-- <p class="text-1 mb-0">
-                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
-                                    3X220/380 V , 3X 5A, 3X 100A<br />
-                                    Measure Up to 4 circuit 3 phase<br />
-                                    Measure all electric parameters<br />
-                                    Split core open loop CTs<br />
-                                    External function module<br />
-                                    RS485 Modbus RTU Lora/4G routers
-                                </p> --}}
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item temperature-monitoring-ews">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/room temperature.png') }}" class="img-card">
-                                </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    Room Temperature & Humidity
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Temperature Monitoring / EWS
-                                </div>
-
-                                {{-- <p class="text-1 mb-0">
-                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
-                                    3X220/380 V , 3X 5A, 3X 100A<br />
-                                    Measure Up to 4 circuit 3 phase<br />
-                                    Measure all electric parameters<br />
-                                    Split core open loop CTs<br />
-                                    External function module<br />
-                                    RS485 Modbus RTU Lora/4G routers
-                                </p> --}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
