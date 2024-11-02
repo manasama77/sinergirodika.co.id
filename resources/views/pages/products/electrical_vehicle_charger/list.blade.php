@@ -85,19 +85,17 @@
                 height="420px;">
 
                 <div class="col-sm-12 isotope-item ac-and-small-commercial-dc-charger">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">AC </strong>and Small Commercial DC Charger
                     </h2>
+                    <div class="text-center">
+                        <img src="{{ asset('img/products/injet-logo.png') }}" class="img-logo">
+                    </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item ac-and-small-commercial-dc-charger">
+                <div class="col-md-6 col-lg-4 offset-lg-2 isotope-item ac-and-small-commercial-dc-charger">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/injet-logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Swift.jpg') }}" class="img-card">
@@ -126,14 +124,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item ac-and-small-commercial-dc-charger">
+                <div class="col-md-6 col-lg-4 isotope-item ac-and-small-commercial-dc-charger">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/injet-logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/HUB.jpg') }}" class="img-card">
@@ -167,19 +160,17 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item ultra-fast-dc-charger">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Ultra </strong>Fast DC Charger
                     </h2>
+                    <div class="text-center">
+                        <img src="{{ asset('img/products/injet-logo.png') }}" class="img-logo">
+                    </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item ultra-fast-dc-charger">
+                <div class="col-md-6 col-lg-4 offset-lg-2 isotope-item ultra-fast-dc-charger">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/injet-logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Ampax.jpg') }}" class="img-card">
@@ -208,14 +199,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-1-5 isotope-item ultra-fast-dc-charger">
+                <div class="col-md-6 col-lg-4 isotope-item ultra-fast-dc-charger">
                     <div class="portfolio-item">
                         <div class="card">
-                            <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/injet-logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Ampax-PPM.png') }}" class="img-card">

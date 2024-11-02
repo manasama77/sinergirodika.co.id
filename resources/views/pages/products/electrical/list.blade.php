@@ -54,16 +54,6 @@
             height: 100%;
             width: 35px;
         }
-
-        .img-logo {
-            width: auto;
-            height: 25px;
-            margin-bottom: 10px;
-        }
-
-        .badge {
-            white-space: normal !important;
-        }
     </style>
 @endsection
 
@@ -125,7 +115,7 @@
                 height="420px;">
 
                 <div class="col-sm-12 isotope-item relay-protection">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Relay </strong>Protection
                     </h2>
                     <div class="text-center">
@@ -294,7 +284,7 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item generator-ats-amf-and-ups">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Generator </strong>ATS AMF and UPS
                     </h2>
                 </div>
@@ -418,7 +408,7 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item energy-metering">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Energy </strong>Metering
                     </h2>
                 </div>
@@ -575,7 +565,7 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item scada-system">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Scada </strong>System
                     </h2>
                 </div>
@@ -697,7 +687,7 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item dc-power-supply">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">DC </strong>Power Supply
                     </h2>
                 </div>
@@ -822,7 +812,7 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item transformer-oil-purifier">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Transformer </strong>Oil Purifier
                     </h2>
                 </div>
@@ -903,7 +893,7 @@
                 height="420px;">
 
                 <div class="col-sm-12 isotope-item distribution-transformer-monitoring">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Distribution </strong>Transformer Monitoring
                     </h2>
                     <div class="row" style="margin-bottom: 20px;">
@@ -1123,7 +1113,7 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item temperature-monitoring-ews">
-                    <h2 class="font-weight-extra-normal text-5 mb-0">
+                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
                         <strong class="font-weight-extra-bold">Temperature </strong>Monitoring / EWS
                     </h2>
                     <div class="row" style="margin-bottom: 20px;">
