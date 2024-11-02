@@ -144,7 +144,8 @@ class HomeController extends Controller
 
     public function products_test_and_measurement_tools()
     {
-        return view('pages.products.test_and_measurement_tools');
+        return view('pages.products.test_and_measurement.list');
+        // return view('pages.products.test_and_measurement_tools');
     }
 
 
