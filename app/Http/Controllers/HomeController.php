@@ -138,7 +138,8 @@ class HomeController extends Controller
 
     public function products_water_tank()
     {
-        return view('pages.products.water_tank');
+        return view('pages.products.water_tank.list');
+        // return view('pages.products.water_tank');
     }
 
     public function products_test_and_measurement_tools()
