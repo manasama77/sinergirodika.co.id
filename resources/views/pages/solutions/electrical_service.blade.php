@@ -21,13 +21,13 @@
             </div>
             <div class="col-lg-9">
 
-                <h2 class="font-weight-extra-normal text-7 mb-3">
-                    <strong class="font-weight-extra-bold">ELECTRICAL</strong> SERVICE
+                <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
+                    <strong class="font-weight-extra-bold">Electrical </strong>Service
                 </h2>
 
                 <div class="row">
-                    <div class="col-sm-12 col-md-9">
-                        <div class="electrical-service-scheme-container">
+                    <div class="col-sm-12 col-md-8 offset-md-2">
+                        <div class="electrical-service-scheme-container mx-auto">
                             <a href="#relay-protection" class="btn-relay">&nbsp;</a>
                             <a href="#generator-ats-amf-and-ups" class="btn-genset">&nbsp;</a>
                             <a href="#energy-metering" class="btn-energy">&nbsp;</a>
