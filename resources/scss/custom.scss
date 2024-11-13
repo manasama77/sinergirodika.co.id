@@ -2,7 +2,7 @@ p {
     line-height: 18px;
 }
 
-table > tbody > tr > td {
+table>tbody>tr>td {
     color: rgb(119, 119, 119);
 }
 
@@ -32,22 +32,21 @@ table > tbody > tr > td {
 #header {
     .header-nav.header-nav-links {
         nav {
-            > ul {
+            >ul {
                 li {
-                    > a.active {
+                    >a.active {
                         color: #64b964 !important;
                     }
                 }
 
                 li:hover {
-                    > a {
+                    >a {
                         color: #64b964 !important;
                     }
                 }
 
                 li.dropdown .dropdown-menu {
-                    border-image: linear-gradient(to left, #64b964, #0e244b) 1 0
-                        0 0 !important;
+                    border-image: linear-gradient(to left, #64b964, #0e244b) 1 0 0 0 !important;
                 }
             }
         }
@@ -59,7 +58,7 @@ table > tbody > tr > td {
     background-image: linear-gradient(to left, #64b964, #0e244b) !important;
 }
 
-.tabs-navigation .nav-tabs > li .nav-link {
+.tabs-navigation .nav-tabs>li .nav-link {
     padding: 8px;
 }
 
@@ -76,7 +75,8 @@ table > tbody > tr > td {
 
 .table-certificate {
     margin-bottom: 5px !important;
-    tr > td,
+
+    tr>td,
     th {
         font-size: 10px !important;
         padding: 0px !important;
@@ -107,15 +107,15 @@ ul.nav-list li a:before {
     color: #ee9e20;
 }
 
-aside ul.nav-list > li > a {
+aside ul.nav-list>li>a {
     color: #ee9e20;
 }
 
-aside ul.nav-list > li > a:hover {
+aside ul.nav-list>li>a:hover {
     font-weight: 500;
 }
 
-ul.nav-list li > a.active {
+ul.nav-list li>a.active {
     color: #ee9e20;
 }
 
@@ -219,7 +219,7 @@ ul.nav-list li > a.active {
 
 //////////
 
-.portfolio-item > .card {
+.portfolio-item>.card {
     padding: 0.3rem 0.2rem;
     border: 1px solid #dadada;
 }
@@ -229,12 +229,12 @@ ul.nav-list li > a.active {
         margin-bottom: 10px !important;
     }
 
-    .portfolio-item > .card > .card-body {
+    .portfolio-item>.card>.card-body {
         min-height: auto !important;
     }
 }
 
-.portfolio-item > .card > .card-body {
+.portfolio-item>.card>.card-body {
     /* min-height: 255px; */
     min-height: auto;
 }
@@ -244,13 +244,18 @@ img.img-card {
     max-height: 100px !important;
 }
 
-.portfolio-item > .card > .card-body h5 {
+img.img-card-genset {
+    width: auto !important;
+    max-height: 200px !important;
+}
+
+.portfolio-item>.card>.card-body h5 {
     font-size: 11px !important;
     line-height: 0.8rem;
     text-transform: none;
 }
 
-.portfolio-item > .card > .card-body p.text-1 {
+.portfolio-item>.card>.card-body p.text-1 {
     font-size: 9px !important;
     line-height: 0.8rem;
     color: #212529 !important;
