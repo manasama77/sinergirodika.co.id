@@ -91,7 +91,7 @@
                         </li>
                         <li class="text-dark"><i class="fas fa-envelope top-6"></i> <strong
                                 class="text-dark">Email:</strong> <a
-                                href="mailto:sales@sinergirodika.co.id">sales@sinergirodika.co.id</a></li>
+                                href="mailto:sinergi.rodika@gmail.com">sinergi.rodika@gmail.com</a></li>
                     </ul>
                 </div>
 

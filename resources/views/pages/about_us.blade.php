@@ -160,8 +160,8 @@
                                         <td class="text-dark">Email</td>
                                         <td class="text-dark">:</td>
                                         <td class="text-dark">
-                                            <a href="mailto:sales@sinergirodika.co.id">
-                                                sales@sinergirodika.co.id
+                                            <a href="mailto:sinergi.rodika@gmail.com">
+                                                sinergi.rodika@gmail.com
                                             </a>
                                         </td>
                                     </tr>

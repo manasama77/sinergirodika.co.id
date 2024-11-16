@@ -241,15 +241,15 @@
                 <div class="col-md-6 col-lg-4 isotope-item generator-ats-amf-and-ups">
                     <div class="portfolio-item">
                         <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
+                            <div class="img-card-logo-wrapper">
                                 <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Schneider_Electric-Logo.svg') }}"
-                                        class="img-card-logo">
+                                    <img src="{{ asset('img/products/perkins-logo.jpg') }}" class="img-card-logo-1">
+                                    <img src="{{ asset('img/products/cummins-logo.jpg') }}" class="img-card-logo-2">
                                 </div>
-                            </div> --}}
+                            </div>
                             <div class="d-flex justify-content-center">
                                 <div>
-                                    <img src="{{ asset('img/products/generator-set.png') }}" class="img-card">
+                                    <img src="{{ asset('img/products/generator set.jpg') }}" class="img-card">
                                 </div>
                             </div>
                             <div class="card-body p-1">
@@ -318,8 +318,8 @@
                             {{-- <div class="img-card-logo-wrapper">
                                 <div class="img-card-logo-item">
                                     <img src="{{ asset('img/products/APC Logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
+            </div>
+        </div> --}}
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/ATS AMF.png') }}" class="img-card">
@@ -475,8 +475,8 @@
                             {{-- <div class="img-card-logo-wrapper">
                                 <div class="img-card-logo-item">
                                     <img src="{{ asset('img/products/Chauvin_Arnoux.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
+            </div>
+        </div> --}}
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/CEWE ProQ 100.png') }}" class="img-card">
@@ -641,14 +641,9 @@
                     </h2>
                 </div>
 
-                <div class="col-md-6 col-lg-4 isotope-item dc-power-supply">
+                <div class="col-md-6 col-lg-3 isotope-item dc-power-supply">
                     <div class="portfolio-item">
                         <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Inhand Logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Rectifier 220 VAC to 48 VDC.jpg') }}"
@@ -683,14 +678,41 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 isotope-item dc-power-supply">
+                <div class="col-md-6 col-lg-3 isotope-item dc-power-supply">
                     <div class="portfolio-item">
                         <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Inhand Logo.png') }}" class="img-card-logo">
+                            <div class="d-flex justify-content-center">
+                                <div>
+                                    <img src="{{ asset('img/products/MOBIL RECTIFIER.jpg') }}" class="img-card">
                                 </div>
-                            </div> --}}
+                            </div>
+                            <div class="card-body p-1">
+                                <h5 class="font-weight-bold text-dark mb-0">
+                                    MOBILE RECTIFIER
+                                </h5>
+                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
+                                    DC Power Supply
+                                </div>
+                                <p class="text-1 mb-0">
+                                    110/48 VDC -60A*<br />
+                                    To provide mobile DC Supply with integrated batteries<br />
+                                    Full Bridge Thyristor Controlled<br />
+                                    Input Voltage 3phase 380VAC<br />
+                                    Double Voltage output 48/110 VDC (Selectable)<br />
+                                    Adjustment 36-70/ 89-157 Vdc<br />
+                                    Boost timer Adjustment O-12 jam<br />
+                                    Output Current Capacity 60A dc (max)<br />
+                                    Metering Ampere meter DC output Digital, Voltage meter DC output Digital<br />
+                                    Status Indicators & Alarms 48/110 Vdc ON and Rectifier Fail
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 isotope-item dc-power-supply">
+                    <div class="portfolio-item">
+                        <div class="card">
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/LIFEPO4 BATTERY.jpg') }}" class="img-card">
@@ -699,7 +721,6 @@
                             <div class="card-body p-1">
                                 <h5 class="font-weight-bold text-dark mb-0">
                                     LIFEPO4 BATTERY
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
                                 </h5>
                                 <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
                                     DC Power Supply
@@ -721,14 +742,9 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 isotope-item dc-power-supply">
+                <div class="col-md-6 col-lg-3 isotope-item dc-power-supply">
                     <div class="portfolio-item">
                         <div class="card">
-                            {{-- <div class="img-card-logo-wrapper">
-                                <div class="img-card-logo-item">
-                                    <img src="{{ asset('img/products/Inhand Logo.png') }}" class="img-card-logo">
-                                </div>
-                            </div> --}}
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/Inverter 48 VDC to 220 VAC.jpg') }}"
@@ -738,7 +754,6 @@
                             <div class="card-body p-1">
                                 <h5 class="font-weight-bold text-dark mb-0">
                                     INVERTER 48 VDC to 220 VAC
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
                                 </h5>
                                 <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
                                     DC Power Supply
@@ -834,57 +849,57 @@
                             <div class="d-flex justify-content-center">
                                 <div>
                                     <img src="{{ asset('img/products/purifier-machine.jpg') }}" class="img-card">
-                                </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    PURIFIER MACHINE
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Transformer Oil Purifier
-                                </div>
-                                <p class="text-1 mb-0">
-                                    Mainly used to improve insulation oil by removing trace water, gas, particulate matters
-                                    etc. to boost performance and life time of transformers, circuit breakers, mutual
-                                    inductors and cable.<br />
-                                    Capacity : 2000, 4000, 6000 liter/hour,<br />
-                                    Process : Double stage : heating to remove water from oil, gas (de-gas) and remove tiny
-                                    particles (purify) eq. acetylene, hydrogen, methane dan other particles. Trailer
-                                    provided mobility.<br />
-                                    Key projects : PLN UPK Kapuas, UP3 Ketapang and UP3B Kalbar, UPK Tambora NTB, UPK Maluku
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+</div>
+</div>
+<div class="card-body p-1">
+    <h5 class="font-weight-bold text-dark mb-0">
+        PURIFIER MACHINE
+    </h5>
+    <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
+        Transformer Oil Purifier
+    </div>
+    <p class="text-1 mb-0">
+        Mainly used to improve insulation oil by removing trace water, gas, particulate matters
+        etc. to boost performance and life time of transformers, circuit breakers, mutual
+        inductors and cable.<br />
+        Capacity : 2000, 4000, 6000 liter/hour,<br />
+        Process : Double stage : heating to remove water from oil, gas (de-gas) and remove tiny
+        particles (purify) eq. acetylene, hydrogen, methane dan other particles. Trailer
+        provided mobility.<br />
+        Key projects : PLN UPK Kapuas, UP3 Ketapang and UP3B Kalbar, UPK Tambora NTB, UPK Maluku
+    </p>
+</div>
+</div>
+</div>
+</div>
 
-                <div class="col-md-6 col-lg-3 isotope-item transformer-oil-purifier">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/portable oil set.png') }}" class="img-card">
-                                </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    PORTABLE OIL TEST SET<br /><small>MEGGER OTS80PB</small>
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Transformer Oil Purifier
-                                </div>
-                                <p class="text-1 mb-0">
-                                    Test voltages 60 kV / 80 kV<br />
-                                    Lock in precision oil vessel<br />
-                                    lockable gap setting<br />
-                                    Flat electrode gap gauges<br />
-                                    Oil Temperature Measurement<br />
-                                    Easy to clean
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
+<div class="col-md-6 col-lg-3 isotope-item transformer-oil-purifier">
+    <div class="portfolio-item">
+        <div class="card">
+            <div class="d-flex justify-content-center">
+                <div>
+                    <img src="{{ asset('img/products/portable oil set.png') }}" class="img-card">
+                </div>
+            </div>
+            <div class="card-body p-1">
+                <h5 class="font-weight-bold text-dark mb-0">
+                    PORTABLE OIL TEST SET<br /><small>MEGGER OTS80PB</small>
+                </h5>
+                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
+                    Transformer Oil Purifier
+                </div>
+                <p class="text-1 mb-0">
+                    Test voltages 60 kV / 80 kV<br />
+                    Lock in precision oil vessel<br />
+                    lockable gap setting<br />
+                    Flat electrode gap gauges<br />
+                    Oil Temperature Measurement<br />
+                    Easy to clean
+                </p>
+            </div>
+        </div>
+    </div>
+</div> --}}
 
             </div>
 
@@ -893,215 +908,222 @@
                 height="420px;">
 
                 <div class="col-sm-12 isotope-item distribution-transformer-monitoring">
-                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
+                    <h2 class="font-weight-extra-normal text-5 mb-3 text-center">
                         <strong class="font-weight-extra-bold">Distribution </strong>Transformer Monitoring
                     </h2>
                     <div class="row" style="margin-bottom: 20px;">
-                        <div class="col-sm-12 col-md-3 text-start mb-2">
-                            <div class="img-thumbnail d-block text-center">
-                                <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN SCHEME.png') }}"
-                                    class="img-fluid" style="max-height: 200px;">
+                        <div class="col-sm-12 col-md-5">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <div class="text-center">
+                                        <img src="{{ asset('img/products/Trafo monitoring Acrel.jpg') }}"
+                                            class="img-fluid" style="max-height: 280px;" />
+                                        <p class="text-1 mb-3 line-height-1 text-dark font-weight-bold text-center">
+                                            INSTALATION PHOTO
+                                        </p>
+                                    </div>
+                                    <p class="text-2 mb-0 line-height-1 text-dark">
+                                        Meters measure Energy on Distribution transformer incoming and LVSB feeders<br />
+                                        Energy and electrical parameters are monitored online via Cellular gateway to IoT
+                                        Energy
+                                        Management system with Integration of Billing Management and Online Losses
+                                        Monitoring
+                                        (OLM)<br />
+                                        Billing and Energy-Losses reports generated can be accessed by clients through
+                                        internet
+                                        connection everywhere
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-9 text-start mb-2">
-                            <div class="text-center">
-                                <img src="{{ asset('img/products/DISTRIBUTION TRANSFORMER MONITORIN INSTALATION PHOTO.png') }}"
-                                    class="img-fluid" style="height:120px;" />
-                                <p class="text-1 mb-2 line-height-1 text-dark font-weight-bold text-center">
-                                    INSTALATION PHOTO
-                                </p>
-                            </div>
-                            <p class="text-2 mb-0 line-height-1 text-dark">
-                                Meters measure Energy on Distribution transformer incoming and LVSB feeders<br />
-                                Energy and electrical parameters are monitored online via Cellular gateway to IoT
-                                Energy
-                                Management system with Integration of Billing Management and Online Losses
-                                Monitoring
-                                (OLM)<br />
-                                Billing and Energy-Losses reports generated can be accessed by clients through
-                                internet
-                                connection everywhere
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 isotope-item distribution-transformer-monitoring">
-                    <div class="text-center">
-                        <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-logo">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/Acrel-ADW210.png') }}" class="img-card">
+                        <div class="col-sm-12 col-md-7">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="text-center">
+                                        <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-logo">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    4 CHANNEL ENERGY METER ACREL ADW201
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/Acrel-ADW210.png') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    4 CHANNEL ENERGY METER ACREL ADW201
+                                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Distribution Transformer Monitoring
+                                                </div>
 
-                                <p class="text-1 mb-0">
-                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
-                                    3X220/380 V , 3X 5A, 3X 100A<br />
-                                    Measure Up to 4 circuit 3 phase<br />
-                                    Measure all electric parameters<br />
-                                    Split core open loop CTs<br />
-                                    External function module<br />
-                                    RS485 Modbus RTU Lora/4G routers
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/Acrel ADW300.png') }}" class="img-card">
+                                                <p class="text-1 mb-0">
+                                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
+                                                    3X220/380 V , 3X 5A, 3X 100A<br />
+                                                    Measure Up to 4 circuit 3 phase<br />
+                                                    Measure all electric parameters<br />
+                                                    Split core open loop CTs<br />
+                                                    External function module<br />
+                                                    RS485 Modbus RTU Lora/4G routers
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    BUILT-IN 4G MODEM ENERGY METER ACREL ADW300
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/Acrel ADW300.png') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    BUILT-IN 4G MODEM ENERGY METER ACREL ADW300
+                                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Distribution Transformer Monitoring
+                                                </div>
 
-                                <p class="text-1 mb-0">
-                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
-                                    3X220/380V, 57.7/100 V<br />
-                                    3x1(6)A AC (via CTs)<br />
-                                    Communication: 4G LTE, WiFi, LoRa, LoRaWAN, NB-IoT, RS485(MODBUS-RTU)<br />
-                                    Application Scenario: Building, Factory, Smart Grids, DB Room etc
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/Acrel-ADL400.jpg') }}" class="img-card">
+                                                <p class="text-1 mb-0">
+                                                    3P3P, 3P4W, Kwh Cl.1 KVARh Cl 2<br />
+                                                    3X220/380V, 57.7/100 V<br />
+                                                    3x1(6)A AC (via CTs)<br />
+                                                    Communication: 4G LTE, WiFi, LoRa, LoRaWAN, NB-IoT,
+                                                    RS485(MODBUS-RTU)<br />
+                                                    Application Scenario: Building, Factory, Smart Grids, DB Room etc
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    ENERGY METER MODBUS RTU ACREL ADL400
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/Acrel-ADL400.jpg') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    ENERGY METER MODBUS RTU ACREL ADL400
+                                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Distribution Transformer Monitoring
+                                                </div>
 
-                                <p class="text-1 mb-0">
-                                    3P3P, 3P4W, Kwh Cl.0.5 KVARh Cl 2<br />
-                                    3X220/380V, 57.7/100 V<br />
-                                    3×1(6)A (via CT) ,3×10(80)AC (Direct)<br />
-                                    Communication: RS485(MODBUS-RTU)s
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/acrel AWT100.png') }}" class="img-card">
+                                                <p class="text-1 mb-0">
+                                                    3P3P, 3P4W, Kwh Cl.0.5 KVARh Cl 2<br />
+                                                    3X220/380V, 57.7/100 V<br />
+                                                    3×1(6)A (via CT) ,3×10(80)AC (Direct)<br />
+                                                    Communication: RS485(MODBUS-RTU)s
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    4G/LORA MODEM ACREL AWT100-4G/LORA
-                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/acrel AWT100.png') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    4G/LORA MODEM ACREL AWT100-4G/LORA
+                                                    {{-- <br /><small>RECTIFIER 220 VAC to 48 VDC</small> --}}
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Distribution Transformer Monitoring
+                                                </div>
 
-                                <p class="text-1 mb-0">
-                                    Upstream Methods: 4G LTE/ LoRA<br />
-                                    Upstream Protocol: MODBUS-TCP, MQTT<br />
-                                    Downstream Methods: RS485 Interface<br />
-                                    Support: Up to 20~25 Acrel Devices with RS485 (MODBUS-RTU)<br />
-                                    Power Supply: 24Vdc
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/Acrel CT.png') }}" class="img-card">
+                                                <p class="text-1 mb-0">
+                                                    Upstream Methods: 4G LTE/ LoRA<br />
+                                                    Upstream Protocol: MODBUS-TCP, MQTT<br />
+                                                    Downstream Methods: RS485 Interface<br />
+                                                    Support: Up to 20~25 Acrel Devices with RS485 (MODBUS-RTU)<br />
+                                                    Power Supply: 24Vdc
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    SPLIT CORE CT
-                                    <br /><small>ACREL AKH-0.66/K-φ24-A</small>
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/Acrel CT.png') }}" class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    SPLIT CORE CT
+                                                    <br /><small>ACREL AKH-0.66/K-φ24-A</small>
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Distribution Transformer Monitoring
+                                                </div>
 
-                                <p class="text-1 mb-0">
-                                    Installation: Split-core type/clamp<br />
-                                    Primary Current Input: 150-300A AC<br />
-                                    Secondary Current Output: 5A AC<br />
-                                    Accuracy: Class 1.0<br />
-                                    Standard&Certificate: UL
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-2 isotope-item distribution-transformer-monitoring">
-                    <div class="portfolio-item">
-                        <div class="card">
-                            <div class="d-flex justify-content-center">
-                                <div>
-                                    <img src="{{ asset('img/products/acrel IoT Energy Management System.jpg') }}"
-                                        class="img-card">
+                                                <p class="text-1 mb-0">
+                                                    Installation: Split-core type/clamp<br />
+                                                    Primary Current Input: 150-300A AC<br />
+                                                    Secondary Current Output: 5A AC<br />
+                                                    Accuracy: Class 1.0<br />
+                                                    Standard&Certificate: UL
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body p-1">
-                                <h5 class="font-weight-bold text-dark mb-0">
-                                    IOIT ENERGY MANAGEMENT
-                                    {{-- <br /><small>ACREL AKH-0.66/K-φ24-A</small> --}}
-                                </h5>
-                                <div class="badge badge-info badge-sm font-weight-semibold mb-1" style="font-size: 9px;">
-                                    Distribution Transformer Monitoring
-                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/acrel IoT Energy Management System.jpg') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    IOIT ENERGY MANAGEMENT
+                                                    {{-- <br /><small>ACREL AKH-0.66/K-φ24-A</small> --}}
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Distribution Transformer Monitoring
+                                                </div>
 
-                                <p class="text-1 mb-0">
-                                    Application Substation, building, telecommunication base station, industrial energy
-                                    consumption, intelligent lighthouse, operation and maintenance of power.
-                                    Connect to all Acrel devices via 4G, LoRA and MQTT TCP
-                                    Energy consumption, billing and forecast
-                                </p>
+                                                <p class="text-1 mb-0">
+                                                    Application Substation, building, telecommunication base station,
+                                                    industrial energy
+                                                    consumption, intelligent lighthouse, operation and maintenance of power.
+                                                    Connect to all Acrel devices via 4G, LoRA and MQTT TCP
+                                                    Energy consumption, billing and forecast
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1113,99 +1135,104 @@
                 data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
 
                 <div class="col-sm-12 isotope-item temperature-monitoring-ews">
-                    <h2 class="font-weight-extra-normal text-5 mb-0 text-center">
+                    <h2 class="font-weight-extra-normal text-5 mb-3 text-center">
                         <strong class="font-weight-extra-bold">Temperature </strong>Monitoring / EWS
                     </h2>
                     <div class="row" style="margin-bottom: 20px;">
-                        <div class="col-sm-12 col-md-3 text-start mb-2">
-                            <div class="img-thumbnail d-block">
-                                <img src="{{ asset('img/products/temperature-scheme.png') }}" class="img-fluid"
-                                    style="max-height: 245px;">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="card">
+                                <div class="card-body p-1">
+                                    <div class="text-center">
+                                        <img src="{{ asset('img/products/temperature-scheme.png') }}" class="img-fluid"
+                                            style="height: 280px;" />
+                                    </div>
+                                    <p class="text-2 mb-0 line-height-1 text-dark">
+                                        Temperature Monitoring on Critical spots in MV panels of Substation, Sensors
+                                        installed in
+                                        CB fingers, busbar, cable termination, cabinets wall both magnetic and strapped
+                                        attachment
+                                        and wirelessly monitored by power meter (RTU). When Spot’s temperature raise and
+                                        reach the
+                                        pre programmed limit RTU will send notification to Scada masters or IoT application
+                                        via
+                                        Internet or cellular as Early warning for users to do further action
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-9 text-start mb-2">
-                            <p class="text-2 mb-0 line-height-1 text-dark">
-                                Temperature Monitoring on Critical spots in MV panels of Substation, Sensors installed in
-                                CB fingers, busbar, cable termination, cabinets wall both magnetic and strapped attachment
-                                and wirelessly monitored by power meter (RTU). When Spot’s temperature raise and reach the
-                                pre programmed limit RTU will send notification to Scada masters or IoT application via
-                                Internet or cellular as Early warning for users to do further action
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 isotope-item distribution-transformer-monitoring">
-                    <div class="text-center">
-                        <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-logo">
-                    </div>
-                </div>
-
-                <div class="col-sm-8 offset-md-2 isotope-item temperature-monitoring-ews">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4">
-                            <div class="portfolio-item">
-                                <div class="card">
-                                    <div class="d-flex justify-content-center">
-                                        <div>
-                                            <img src="{{ asset('img/products/magnetic-strapped.png') }}"
-                                                class="img-card">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="text-center">
+                                        <img src="{{ asset('img/products/ACREL LOGO.png') }}" class="img-logo">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/magnetic-strapped.png') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    Magnetic and Strapped Battery Power
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Temperature Monitoring / EWS
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="card-body p-1">
-                                        <h5 class="font-weight-bold text-dark mb-0">
-                                            Magnetic and Strapped Battery Power
-                                        </h5>
-                                        <div class="badge badge-info badge-sm font-weight-semibold mb-1"
-                                            style="font-size: 9px;">
-                                            Temperature Monitoring / EWS
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/ct-induction.png') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    CT Induction (No Battery)
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Temperature Monitoring / EWS
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <div class="portfolio-item mb-1">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center">
+                                                <div>
+                                                    <img src="{{ asset('img/products/room temperature.png') }}"
+                                                        class="img-card">
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-1">
+                                                <h5 class="font-weight-bold text-dark mb-0">
+                                                    Room Temperature & Humidity
+                                                </h5>
+                                                <div class="badge badge-info badge-sm font-weight-semibold mb-1"
+                                                    style="font-size: 9px;">
+                                                    Temperature Monitoring / EWS
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="portfolio-item">
-                                <div class="card">
-                                    <div class="d-flex justify-content-center">
-                                        <div>
-                                            <img src="{{ asset('img/products/ct-induction.png') }}" class="img-card">
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-1">
-                                        <h5 class="font-weight-bold text-dark mb-0">
-                                            CT Induction (No Battery)
-                                        </h5>
-                                        <div class="badge badge-info badge-sm font-weight-semibold mb-1"
-                                            style="font-size: 9px;">
-                                            Temperature Monitoring / EWS
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="portfolio-item">
-                                <div class="card">
-                                    <div class="d-flex justify-content-center">
-                                        <div>
-                                            <img src="{{ asset('img/products/room temperature.png') }}" class="img-card">
-                                        </div>
-                                    </div>
-                                    <div class="card-body p-1">
-                                        <h5 class="font-weight-bold text-dark mb-0">
-                                            Room Temperature & Humidity
-                                        </h5>
-                                        <div class="badge badge-info badge-sm font-weight-semibold mb-1"
-                                            style="font-size: 9px;">
-                                            Temperature Monitoring / EWS
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-
                 </div>
 
 
