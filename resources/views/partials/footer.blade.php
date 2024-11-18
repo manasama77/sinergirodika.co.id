@@ -25,7 +25,7 @@
                         <div class="feature-box-info ps-1">
                             <h5 class="mb-0 opacity-7 font-weight-light">ADDRESS</h5>
                             <p class="text-color-light font-weight-semibold mb-0">
-                                Jl. Jalur Sutera Timur Kav. 6A No. 16 Alam Sutera, Tangerang 15144
+                                Jl. Jalur Sutera Timur Kav. 6A No. 16 Alam Sutera, Tangerang Banten 15144
                             </p>
                         </div>
                     </div>

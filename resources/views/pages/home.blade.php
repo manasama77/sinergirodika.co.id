@@ -11,7 +11,7 @@
         </div>
 
         <div class="owl-carousel dots-inside dots-horizontal-center show-dots-hover nav-inside nav-inside-plus nav-dark nav-md nav-font-size-md show-nav-hover mb-0"
-            data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 1}, '979': {'items': 1}, '1199': {'items': 1}}, 'loop': true, 'autoHeight': false, 'margin': 0, 'dots': false, 'dotsVerticalOffset': '-75px', 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'mouseDrag': false, 'touchDrag': true, 'pullDrag': false, 'autoplay': true, 'autoplayTimeout': 30000, 'autoplayHoverPause': true, 'rewind': true}">
+            data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 1}, '979': {'items': 1}, '1199': {'items': 1}}, 'loop': true, 'autoHeight': false, 'margin': 0, 'dots': true, 'dotsVerticalOffset': '-75px', 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'mouseDrag': true, 'touchDrag': true, 'pullDrag': true, 'autoplay': true, 'autoplayTimeout': 5000, 'autoplayHoverPause': true, 'rewind': true}">
 
             <!-- Carousel Slide 1 -->
             <div class="position-relative overlay overlay-show overlay-op-4"

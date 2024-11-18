@@ -98,43 +98,38 @@
                                 with an efficient, effective and targeted process</p>
                         </div>
                         <div class="tab-pane tab-pane-navigation" id="tabTheManagementAddress">
-                            <h2 class="font-weight-extra-normal text-5 mb-0">
+                            <h2 class="font-weight-extra-normal text-5 mb-3">
                                 <strong class="font-weight-extra-bold">THE </strong>MANAGEMENT
                             </h2>
-                            <div class="row pb-4 mb-2">
-                                <div class="col-sm-6 mb-4 mb-lg-0 appear-animation"
-                                    data-appear-animation="fadeInRightShorter">
-                                    <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
-                                        <span class="thumb-info-wrapper border-radius-0">
-                                            <div>
-                                                <img src="{{ asset('img/team.jpg') }}" class="img-fluid border-radius-0"
-                                                    alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Mr. Fathoni</span>
-                                                    <span class="thumb-info-type">Commissioner</span>
-                                                </span>
-                                            </div>
-                                        </span>
-                                    </span>
+                            <div class="row mb-1">
+                                <div class="col-sm-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter">
+                                    <div class="feature-box">
+                                        <div class="feature-box-icon feature-box-icon-lg bg-light mt-1"
+                                            style="align-items: end;">
+                                            <i class="icons icon-user text-color-primary text-7"></i>
+                                        </div>
+                                        <div class="feature-box-info">
+                                            <h2 class="font-weight-bold text-color-dark text-4 line-height-5 mb-1">Mr.
+                                                Fathoni</h2>
+                                            <p class="text-color-dark opacity-7">Commissioner</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-sm-6 mb-4 mb-lg-0 appear-animation"
-                                    data-appear-animation="fadeInRightShorter" data-appear-animation-delay="200">
-                                    <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
-                                        <span class="thumb-info-wrapper border-radius-0">
-                                            <div>
-                                                <img src="{{ asset('img/team.jpg') }}" class="img-fluid border-radius-0"
-                                                    alt="">
-                                                <span class="thumb-info-title">
-                                                    <span class="thumb-info-inner">Mr. Ikman Tri Putra</span>
-                                                    <span class="thumb-info-type">Director</span>
-                                                </span>
-                                            </div>
-                                        </span>
-                                    </span>
+                                <div class="col-sm-6 mb-4 mb-lg-0 appear-animation" data-appear-animation="fadeInUpShorter"
+                                    data-appear-animation-delay="200">
+                                    <div class="feature-box">
+                                        <div class="feature-box-icon feature-box-icon-lg bg-light mt-1"
+                                            style="align-items: end;">
+                                            <i class="icons icon-user text-color-primary text-7"></i>
+                                        </div>
+                                        <div class="feature-box-info">
+                                            <h2 class="font-weight-bold text-color-dark text-4 line-height-5 mb-1">Mr. Ikman
+                                                Tri Putra</h2>
+                                            <p class="text-color-dark opacity-7">Director</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-
-                            <hr />
 
                             <h2 class="font-weight-extra-normal text-5 mb-0">
                                 <strong class="font-weight-extra-bold">ADDRESS</strong>
@@ -145,7 +140,7 @@
                                         <td class="text-dark">Office</td>
                                         <td class="text-dark">:</td>
                                         <td class="text-dark">Ruko Renata, Jl. Jalur Sutera Timur Kav. 6A No. 16 Alam Sutera
-                                            Tangerang BANTEN 15144</td>
+                                            Tangerang Banten 15144</td>
                                     </tr>
                                     <tr>
                                         <td class="text-dark">Telp/Fax</td>
@@ -153,6 +148,15 @@
                                         <td class="text-dark">
                                             <a href="tel:02122352886">
                                                 021 22352886
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-dark">WhatsApp</td>
+                                        <td class="text-dark">:</td>
+                                        <td class="text-dark">
+                                            <a href="https://wa.me/628111923762">
+                                                08111923762
                                             </a>
                                         </td>
                                     </tr>
@@ -170,7 +174,7 @@
                                         <td class="text-dark">:</td>
                                         <td class="text-dark">
                                             <a href="https://sinergirodika.co.id">
-                                                www.sinergirodika.co.id
+                                                sinergirodika.co.id
                                             </a>
                                         </td>
                                     </tr>

@@ -82,7 +82,7 @@
                     <ul class="list list-icons list-icons-style-2 mt-2">
                         <li class="text-dark"><i class="fas fa-map-marker-alt top-6"></i> <strong
                                 class="text-dark">Address:</strong> Jl.
-                            Jalur Sutera Timur Kav. 6A No. 16 Alam Sutera, Tangerang 15144</li>
+                            Jalur Sutera Timur Kav. 6A No. 16 Alam Sutera, Tangerang Banten 15144</li>
                         <li class="text-dark"><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong>
                             <a href="tel:02122352886">021 22352886</a>
                         </li>
@@ -100,8 +100,7 @@
                 </h4>
                 <p class="lead mb-0 text-4 appear-animation text-dark" data-appear-animation="fadeIn"
                     data-appear-animation-delay="0">
-                    Electrical And Scada System Energy And Environment Management Painting System
-                    And Water Treatment</p>
+                    Substation and Electrical Services, Electric Vehicle Charger and Energy & Environment Management</p>
 
             </div>
         </div>

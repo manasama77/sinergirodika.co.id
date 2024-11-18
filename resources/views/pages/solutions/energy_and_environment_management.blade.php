@@ -42,7 +42,7 @@
                                 monitor
                                 and control and billing management</p>
                             <div class="d-flex justify-content-center gap-3">
-                                <a href="{{ route('products.energy-and-environment-management.energy-meters') }}"
+                                <a href="{{ route('products.energy-and-environment-management') }}"
                                     class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                                     <i class="fas fa-angles-right fa-fw"></i> More Product
                                 </a>
@@ -162,7 +162,7 @@
                             </p>
 
                             <div class="d-flex justify-content-center gap-3">
-                                <a href="{{ route('products.energy-and-environment-management.cctv-and-electronic-security') }}"
+                                <a href="{{ route('products.energy-and-environment-management') }}#cctv-and-electronic-security"
                                     class="btn btn-dark btn-sm btn-modern anim-hover-translate-right-10px transition-3ms">
                                     <i class="fas fa-angles-right fa-fw"></i> More Product
                                 </a>
